@@ -1,21 +1,22 @@
 import 'dart:async';
+import 'dart:convert';
 import 'dart:developer';
+import 'dart:ffi';
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:location/location.dart';
 import 'package:timelines/timelines.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -36,146 +37,171 @@ class TrackingScreen extends StatefulWidget {
 }
 
 class _TrackingScreenState extends State<TrackingScreen> {
-  late StreamSubscription? _locationSubscription;
-  final Location _locationTracker = Location();
-  late Marker? marker;
-  late Circle? circle;
-  late GoogleMapController? _controller;
+  Marker? marker;
+  Circle? circle;
+  GoogleMapController? _controller;
+  final LatLng initialLocation = const LatLng(30.0539785, 31.2235324);
 
-  static const CameraPosition initialLocation = CameraPosition(
-    target: LatLng(37.42796133580664, -122.085749655962),
-    zoom: 14.4746,
-  );
+  Stream<LatLng> get directions async* {
+    String data = await DefaultAssetBundle.of(context)
+        .loadString("assets/json/directions.json");
+
+    Map<String, dynamic> parsedDirections = jsonDecode(data);
+    List<LatLng> points = (parsedDirections["points"] as List<dynamic>)
+        .map((e) => LatLng(e["lat"], e["lng"]))
+        .toList();
+    for (var currentLocation in points) {
+      yield currentLocation;
+
+      await Future.delayed(const Duration(seconds: 1));
+    }
+  }
 
   Future<Uint8List> getMarker() async {
     ByteData byteData =
-        await DefaultAssetBundle.of(context).load("assets/location.png");
+        await DefaultAssetBundle.of(context).load("assets/images/location.png");
     return byteData.buffer.asUint8List();
   }
 
-  void updateMarkerAndCircle(LocationData newLocalData, Uint8List imageData) {
-    LatLng latlng = LatLng(newLocalData.latitude!, newLocalData.longitude!);
+  void updateMarkerAndCircle(LatLng latLng, Uint8List imageData) {
     setState(() {
       marker = Marker(
-        markerId: const MarkerId("home"),
-        position: latlng,
-        rotation: newLocalData.heading!,
+        markerId: const MarkerId("driver"),
+        position: latLng,
         draggable: false,
         zIndex: 2,
         flat: true,
         anchor: const Offset(0.5, 0.5),
         icon: BitmapDescriptor.fromBytes(imageData),
       );
-      circle = Circle(
-        circleId: const CircleId("car"),
-        radius: newLocalData.accuracy!,
-        zIndex: 1,
-        strokeColor: Colors.blue,
-        center: latlng,
-        fillColor: Colors.blue.withAlpha(70),
-      );
+      // circle = Circle(
+      //   circleId: const CircleId("car"),
+      //   radius: 5,
+      //   zIndex: 1,
+      //   strokeColor: Colors.blue,
+      //   center: latLng,
+      //   fillColor: Colors.blue.withAlpha(70),
+      // );
     });
   }
 
-  void getCurrentLocation() async {
-    try {
-      Uint8List imageData = await getMarker();
-      _locationTracker.enableBackgroundMode(enable: true);
+  updateLocation() async {
+    Uint8List imageData = await getMarker();
 
-      bool serviceEnabled;
-      PermissionStatus permissionGranted;
-
-      // Checking for permissions;
-      serviceEnabled = await _locationTracker.serviceEnabled();
-      if (!serviceEnabled) {
-        serviceEnabled = await _locationTracker.requestService();
-        if (!serviceEnabled) {
-          return;
-        }
-      }
-
-      permissionGranted = await _locationTracker.hasPermission();
-      if (permissionGranted == PermissionStatus.denied) {
-        permissionGranted = await _locationTracker.requestPermission();
-        if (permissionGranted != PermissionStatus.granted) {
-          return;
-        }
-      }
-
-      // Get current location
-      var location = await _locationTracker.getLocation();
-      // Update map UI
-      updateMarkerAndCircle(location, imageData);
-
-      if (_locationSubscription != null) {
-        _locationSubscription!.cancel();
-      }
-
-      _locationSubscription =
-          _locationTracker.onLocationChanged.listen((newLocalData) {
-        if (_controller != null) {
-          // Animate camera to new driver's location
-          _controller!.animateCamera(
-            CameraUpdate.newCameraPosition(
-              CameraPosition(
-                bearing: 192.8334901395799,
-                target: LatLng(newLocalData.latitude!, newLocalData.longitude!),
-                tilt: 0,
-                zoom: 18.00,
-              ),
+    directions.listen((newLocalData) {
+      if (_controller != null) {
+        _controller!.animateCamera(
+          CameraUpdate.newCameraPosition(
+            CameraPosition(
+              bearing: 192.8334901395799,
+              target: LatLng(newLocalData.latitude, newLocalData.longitude),
+              tilt: 0,
+              zoom: 14,
             ),
-          );
-          updateMarkerAndCircle(newLocalData, imageData);
-        }
-      });
-    } on PlatformException catch (e) {
-      if (e.code == 'PERMISSION_DENIED') {
-        debugPrint("Permission Denied");
+          ),
+        );
+        updateMarkerAndCircle(newLocalData, imageData);
       }
-    }
-  }
-
-  @override
-  void dispose() {
-    if (_locationSubscription != null) {
-      _locationSubscription!.cancel();
-    }
-    super.dispose();
+    });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      extendBodyBehindAppBar: true,
+      backgroundColor: Colors.transparent,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+      ),
       body: Stack(
         children: [
           GoogleMap(
-            initialCameraPosition: initialLocation,
+            initialCameraPosition: CameraPosition(
+              target: initialLocation,
+              zoom: 14,
+            ),
             markers: Set.of((marker != null) ? [marker!] : []),
             circles: Set.of((circle != null) ? [circle!] : []),
             onMapCreated: (GoogleMapController controller) {
               _controller = controller;
+              updateLocation();
             },
           ),
-          BottomSheet(
-            onClosing: () {
-              log("Closing");
-            },
-            builder: (ctx) => TimelineTile(
-              oppositeContents: const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Text('opposite\ncontents'),
-              ),
-              contents: Card(
-                child: Container(
-                  padding: const EdgeInsets.all(8.0),
-                  child: const Text('contents'),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: SizedBox(
+              height: 250,
+              child: BottomSheet(
+                enableDrag: false,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30.0),
                 ),
-              ),
-              node: const TimelineNode(
-                indicator: DotIndicator(),
-                startConnector: SolidLineConnector(),
-                endConnector: SolidLineConnector(),
+                backgroundColor: Colors.red,
+                onClosing: () {
+                  log("Closing");
+                },
+                builder: (ctx) => Timeline(
+                  physics: const NeverScrollableScrollPhysics(),
+                  children: [
+                    TimelineTile(
+                      nodeAlign: TimelineNodeAlign.start,
+                      contents: Card(
+                        child: Container(
+                          padding: const EdgeInsets.all(8.0),
+                          child: const Text('contents'),
+                        ),
+                      ),
+                      node: const TimelineNode(
+                        indicator: DotIndicator(),
+                        startConnector: SolidLineConnector(),
+                        endConnector: SolidLineConnector(),
+                      ),
+                    ),
+                    TimelineTile(
+                      nodeAlign: TimelineNodeAlign.start,
+                      contents: Card(
+                        child: Container(
+                          padding: const EdgeInsets.all(8.0),
+                          child: const Text('contents'),
+                        ),
+                      ),
+                      node: const TimelineNode(
+                        indicator: DotIndicator(),
+                        startConnector: SolidLineConnector(),
+                        endConnector: SolidLineConnector(),
+                      ),
+                    ),
+                    TimelineTile(
+                      nodeAlign: TimelineNodeAlign.start,
+                      contents: Card(
+                        child: Container(
+                          padding: const EdgeInsets.all(8.0),
+                          child: const Text('contents'),
+                        ),
+                      ),
+                      node: const TimelineNode(
+                        indicator: DotIndicator(),
+                        startConnector: SolidLineConnector(),
+                        endConnector: SolidLineConnector(),
+                      ),
+                    ),
+                    TimelineTile(
+                      nodeAlign: TimelineNodeAlign.start,
+                      contents: Card(
+                        child: Container(
+                          padding: const EdgeInsets.all(8.0),
+                          child: const Text('contents'),
+                        ),
+                      ),
+                      node: const TimelineNode(
+                        indicator: DotIndicator(),
+                        startConnector: SolidLineConnector(),
+                        endConnector: SolidLineConnector(),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
