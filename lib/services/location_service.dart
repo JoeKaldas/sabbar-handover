@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class LocationService {
@@ -14,7 +15,16 @@ class LocationService {
     for (var currentLocation in points) {
       yield currentLocation;
 
-      await Future.delayed(const Duration(seconds: 1));
+      await Future.delayed(const Duration(milliseconds: 10));
     }
+  }
+
+  double getDistanceInMeters(LatLng startPosition, LatLng endPosition) {
+    return Geolocator.distanceBetween(
+      startPosition.latitude,
+      startPosition.longitude,
+      endPosition.latitude,
+      endPosition.longitude,
+    );
   }
 }

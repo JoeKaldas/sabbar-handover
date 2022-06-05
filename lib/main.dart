@@ -2,10 +2,13 @@ import 'dart:async';
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:sabbar/consts/colors.dart';
 import 'package:sabbar/consts/locations.dart';
 import 'package:sabbar/consts/logging.dart';
+import 'package:sabbar/extensions/list_map_with_index.dart';
+import 'package:sabbar/models/order.dart';
 import 'package:sabbar/services/json_service.dart';
 import 'package:sabbar/services/location_service.dart';
 import 'package:sabbar/services/local_notification_service.dart';
@@ -46,6 +49,8 @@ class TrackingScreen extends StatefulWidget {
 class _TrackingScreenState extends State<TrackingScreen> {
   LocationService locationService = LocationService.instance;
   JsonService jsonService = const JsonService();
+
+  Order order = Order();
 
   Marker? driverMarker;
   Marker? pickupMarker;
@@ -96,7 +101,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
           markerId: const MarkerId("pickup"),
           position: pickupLocation,
           draggable: false,
-          zIndex: 2,
+          zIndex: 1,
           flat: true,
           anchor: const Offset(0.5, 0.5),
           icon: BitmapDescriptor.fromBytes(images[1]),
@@ -106,7 +111,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
           markerId: const MarkerId("destination"),
           position: destinationLocation,
           draggable: false,
-          zIndex: 2,
+          zIndex: 1,
           flat: true,
           anchor: const Offset(0.5, 0.5),
           icon: BitmapDescriptor.fromBytes(images[2]),
@@ -120,20 +125,63 @@ class _TrackingScreenState extends State<TrackingScreen> {
   updateLocation() {
     jsonService.fetchData(context, "assets/json/directions.json").then(
           (data) => locationService.directions(data).listen(
-            (newLocalData) {
+            (LatLng newLocalData) async {
               if (_controller != null) {
-                _controller!.animateCamera(
+                await _controller!.animateCamera(
                   CameraUpdate.newCameraPosition(
                     CameraPosition(
                       target: LatLng(
                         newLocalData.latitude,
                         newLocalData.longitude,
                       ),
-                      zoom: 12.5,
+                      zoom: 12,
                     ),
                   ),
                 );
                 updateMarkerAndCircle(newLocalData);
+
+                if (!order.didNotifyPickup5km) {
+                  double distanceInMeters = locationService.getDistanceInMeters(
+                      newLocalData, pickupLocation);
+
+                  if (distanceInMeters <= 5000 && !order.didNotifyPickup5km) {
+                    order.notifyPickup5Km();
+                  }
+                  return;
+                }
+
+                if (!order.didNotifyPickup100m) {
+                  double distanceInMeters = locationService.getDistanceInMeters(
+                      newLocalData, pickupLocation);
+
+                  if (distanceInMeters <= 100 && !order.didNotifyPickup100m) {
+                    order.notifyPickup100m();
+                    deliveryStatuses[1].updateStatus();
+                  }
+                  return;
+                }
+
+                if (!order.didNotifyDelivery5km) {
+                  double distanceInMeters = locationService.getDistanceInMeters(
+                      newLocalData, destinationLocation);
+
+                  if (distanceInMeters <= 5000 && !order.didNotifyDelivery5km) {
+                    order.notifyDelivery5Km();
+                    deliveryStatuses[2].updateStatus();
+                  }
+                  return;
+                }
+
+                if (!order.didNotifyDelivery100m) {
+                  double distanceInMeters = locationService.getDistanceInMeters(
+                      newLocalData, destinationLocation);
+
+                  if (distanceInMeters <= 100 && !order.didNotifyDelivery100m) {
+                    order.notifyDelivery100m();
+                    deliveryStatuses[3].updateStatus();
+                  }
+                  return;
+                }
               }
             },
           ),
@@ -150,9 +198,10 @@ class _TrackingScreenState extends State<TrackingScreen> {
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
-      body: Column(
+      body: Stack(
         children: [
-          Expanded(
+          SizedBox(
+            height: MediaQuery.of(context).size.height,
             child: GoogleMap(
               myLocationButtonEnabled: false,
               cameraTargetBounds: CameraTargetBounds(
@@ -163,7 +212,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
               ),
               initialCameraPosition: const CameraPosition(
                 target: pickupLocation,
-                zoom: 12.5,
+                zoom: 12,
               ),
               markers: markers,
               onMapCreated: (GoogleMapController controller) {
@@ -174,34 +223,66 @@ class _TrackingScreenState extends State<TrackingScreen> {
           ),
           Align(
             alignment: Alignment.bottomCenter,
-            child: BottomSheet(
-              enableDrag: true,
-              shape: const RoundedRectangleBorder(
-                borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(30),
-                  topRight: Radius.circular(30),
+            child: SizedBox(
+              height: 300,
+              child: BottomSheet(
+                enableDrag: true,
+                shape: const RoundedRectangleBorder(
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(30),
+                    topRight: Radius.circular(30),
+                  ),
                 ),
-              ),
-              backgroundColor: yellow,
-              onClosing: () {},
-              builder: (ctx) => SizedBox(
-                height: 100,
-                child: Timeline(
+                backgroundColor: yellow,
+                onClosing: () {},
+                builder: (ctx) => Timeline(
+                  padding: const EdgeInsets.all(20),
                   physics: const NeverScrollableScrollPhysics(),
                   children: deliveryStatuses
-                      .map(
-                        (deliveryStatus) => TimelineTile(
+                      .mapWithIndex(
+                        (deliveryStatus, index) => TimelineTile(
                           nodeAlign: TimelineNodeAlign.start,
-                          contents: Card(
-                            child: Container(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Text(deliveryStatus.name),
+                          contents: Container(
+                            padding: EdgeInsets.only(
+                              left: 10,
+                              top: index == deliveryStatuses.length - 1
+                                  ? 20
+                                  : 10,
+                              bottom: index == deliveryStatuses.length - 1
+                                  ? 20
+                                  : 10,
+                              right: 10,
+                            ),
+                            child: Text(
+                              deliveryStatus.name,
+                              style: TextStyle(
+                                color: deliveryStatus.isFinished
+                                    ? black
+                                    : deliveryStatusPending,
+                              ),
                             ),
                           ),
-                          node: const TimelineNode(
-                            indicator: DotIndicator(),
-                            startConnector: SolidLineConnector(),
-                            endConnector: SolidLineConnector(),
+                          node: TimelineNode(
+                            indicator: DotIndicator(
+                              size: 7,
+                              color: deliveryStatus.isFinished
+                                  ? black
+                                  : deliveryStatusPending,
+                            ),
+                            startConnector: index == 0
+                                ? null
+                                : SolidLineConnector(
+                                    color: deliveryStatus.isFinished
+                                        ? black
+                                        : deliveryStatusPending,
+                                  ),
+                            endConnector: index == deliveryStatuses.length - 1
+                                ? null
+                                : SolidLineConnector(
+                                    color: deliveryStatus.isFinished
+                                        ? black
+                                        : deliveryStatusPending,
+                                  ),
                           ),
                         ),
                       )

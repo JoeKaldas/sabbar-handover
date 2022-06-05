@@ -6,7 +6,7 @@ const LatLng pickupLocation = LatLng(30.0663435, 31.218413799999997);
 const LatLng destinationLocation = LatLng(30.024287899999997, 31.216787);
 
 final List<DeliveryStatus> deliveryStatuses = [
-  DeliveryStatus(name: "On the way"),
+  DeliveryStatus(name: "On the way", isFinished: true),
   DeliveryStatus(name: "Picked up delivery"),
   DeliveryStatus(name: "Near delivery destination"),
   DeliveryStatus(name: "Delivered package"),

@@ -1,10 +1,13 @@
 class DeliveryStatus {
   final String name;
-  bool status = false;
+  bool isFinished;
 
-  DeliveryStatus({required this.name});
+  DeliveryStatus({
+    required this.name,
+    this.isFinished = false,
+  });
 
   updateStatus() {
-    status = true;
+    isFinished = true;
   }
 }
