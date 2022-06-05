@@ -10,14 +10,14 @@
   "lng": 31.2622538
   },
   "end": {
-  "addr": "Garden 8, صلاح الدين عبد الكريم، New Cairo 1‭",
-  "name": "Garden 8",
+  "addr": "Four Seasons Hotel Cairo at The First Residence فندق فور سيزون القاهرة‭",
+  "name": "Four Seasons Hotel Cairo at The First Residence فندق فور سيزون القاهرة‭",
   "details": [
-  "Garden 8",
-  "2FWM+FJP، صلاح الدين عبد الكريم، New Cairo 1, Cairo Governorate 4740302, Egypt"
+  "Four Seasons Hotel Cairo at The First Residence",
+  "35 Giza St, Oula, Giza District, Giza Governorate 12612, Egypt"
   ],
-  "lat": 30.0462132,
-  "lng": 31.4840806
+  "lat": 30.024287899999997,
+  "lng": 31.216787
   },
   "dest": [
   {
@@ -31,24 +31,24 @@
   "lng": 31.2622538
   },
   {
-  "addr": "Giza Governorate 4270103, Egypt",
-  "name": "Giza Governorate 4270103",
+  "addr": "ICONIA Zamalek, 16 Mohammed Thakeb, St, Zamalek, Cairo Governorate, Egypt",
+  "name": "ICONIA Zamalek",
   "details": [
-  "Zamalek",
-  "Giza Governorate 4270103, Egypt"
+  "ICONIA Zamalek",
+  "16 Mohammed Thakeb, St، Zamalek, Cairo Governorate 4271132, Egypt"
   ],
-  "lat": 30.052730399999998,
-  "lng": 31.2220187
+  "lat": 30.0663435,
+  "lng": 31.218413799999997
   },
   {
-  "addr": "Garden 8, صلاح الدين عبد الكريم، New Cairo 1‭",
-  "name": "Garden 8",
+  "addr": "Four Seasons Hotel Cairo at The First Residence فندق فور سيزون القاهرة‭",
+  "name": "Four Seasons Hotel Cairo at The First Residence فندق فور سيزون القاهرة‭",
   "details": [
-  "Garden 8",
-  "2FWM+FJP، صلاح الدين عبد الكريم، New Cairo 1, Cairo Governorate 4740302, Egypt"
+  "Four Seasons Hotel Cairo at The First Residence",
+  "35 Giza St, Oula, Giza District, Giza Governorate 12612, Egypt"
   ],
-  "lat": 30.0462132,
-  "lng": 31.4840806
+  "lat": 30.024287899999997,
+  "lng": 31.216787
   }
   ],
   "countries": [
@@ -61,12 +61,12 @@
   "lat": 30.0477386
   },
   {
-  "lng": 31.2220187,
-  "lat": 30.052730399999998
+  "lng": 31.218413799999997,
+  "lat": 30.0663435
   },
   {
-  "lng": 31.4840806,
-  "lat": 30.0462132
+  "lng": 31.216787,
+  "lat": 30.024287899999997
   }
   ],
   "points": [
@@ -502,18 +502,18 @@
   "lng": 31.2467309,
   "lat": 30.0511317,
   "type": "waypoint",
-  "polyline": "qjlvDa{u}DChCAlC?~BA~A@fACn@ClBE`CCrAGnE",
+  "polyline": "qjlvDa{u}DChCAlC?~BA~A",
   "dir": "Continue straight onto <b>Adly</b>",
   "step": "straight",
   "nextturn": "straight",
   "dist": {
-  "val": 557,
-  "txt": "0.6 km",
-  "total": 2356
+  "val": 242,
+  "txt": "0.2 km",
+  "total": 2041
   },
   "timeto": {
-  "val": 166,
-  "txt": "3 mins"
+  "val": 52,
+  "txt": "1 min"
   }
   },
   {
@@ -533,241 +533,763 @@
   "lat": 30.05117
   },
   {
-  "lng": 31.24385,
-  "lat": 30.05116
-  },
-  {
-  "lng": 31.24361,
-  "lat": 30.05118
-  },
-  {
-  "lng": 31.24306,
-  "lat": 30.0512
-  },
-  {
-  "lng": 31.24241,
-  "lat": 30.05123
-  },
-  {
-  "lng": 31.24199,
-  "lat": 30.05125
-  },
-  {
-  "lng": 31.24095,
-  "lat": 30.05129
-  },
-  {
-  "lng": 31.2409514,
-  "lat": 30.0512906,
+  "lng": 31.244213,
+  "lat": 30.0511697,
   "type": "waypoint",
-  "polyline": "qklvD}vt}DfCdBjAd@nAn@`Ah@NJ`A\\XRZNZNx@n@vAfADBZVA@?BABA@?B?B?B?B?B?B?B@@@B@B@@@B@@@@@@DB",
-  "dir": "Turn <b>left</b> onto <b>Talaat Harb</b>",
-  "step": "turn-left",
-  "nextturn": "turn-left",
+  "polyline": "yjlvDiku}DkCGcCA",
+  "dir": "Turn <b>right</b> onto <b>Mohammed Farid</b>",
+  "step": "turn-right",
+  "nextturn": "turn-right",
   "dist": {
-  "val": 491,
-  "txt": "0.5 km",
-  "total": 2847
+  "val": 152,
+  "txt": "0.2 km",
+  "total": 2193
   },
   "timeto": {
-  "val": 144,
-  "txt": "2 mins"
-  }
-  },
-  {
-  "lng": 31.24044,
-  "lat": 30.05061
-  },
-  {
-  "lng": 31.24025,
-  "lat": 30.05023
-  },
-  {
-  "lng": 31.24001,
-  "lat": 30.04983
-  },
-  {
-  "lng": 31.2398,
-  "lat": 30.0495
-  },
-  {
-  "lng": 31.23974,
-  "lat": 30.04942
-  },
-  {
-  "lng": 31.23959,
-  "lat": 30.04909
-  },
-  {
-  "lng": 31.23949,
-  "lat": 30.04896
-  },
-  {
-  "lng": 31.23941,
-  "lat": 30.04882
-  },
-  {
-  "lng": 31.23933,
-  "lat": 30.04868
-  },
-  {
-  "lng": 31.23909,
-  "lat": 30.04839
-  },
-  {
-  "lng": 31.23873,
-  "lat": 30.04795
-  },
-  {
-  "lng": 31.23871,
-  "lat": 30.04792
-  },
-  {
-  "lng": 31.23859,
-  "lat": 30.04778
-  },
-  {
-  "lng": 31.23858,
-  "lat": 30.04779
-  },
-  {
-  "lng": 31.23856,
-  "lat": 30.04779
-  },
-  {
-  "lng": 31.23854,
-  "lat": 30.0478
-  },
-  {
-  "lng": 31.23853,
-  "lat": 30.04781
-  },
-  {
-  "lng": 31.23851,
-  "lat": 30.04781
-  },
-  {
-  "lng": 31.23849,
-  "lat": 30.04781
-  },
-  {
-  "lng": 31.23847,
-  "lat": 30.04781
-  },
-  {
-  "lng": 31.23845,
-  "lat": 30.04781
-  },
-  {
-  "lng": 31.23843,
-  "lat": 30.04781
-  },
-  {
-  "lng": 31.23841,
-  "lat": 30.04781
-  },
-  {
-  "lng": 31.23839,
-  "lat": 30.04781
-  },
-  {
-  "lng": 31.23838,
-  "lat": 30.0478
-  },
-  {
-  "lng": 31.23836,
-  "lat": 30.04779
-  },
-  {
-  "lng": 31.23834,
-  "lat": 30.04778
-  },
-  {
-  "lng": 31.23833,
-  "lat": 30.04777
-  },
-  {
-  "lng": 31.23831,
-  "lat": 30.04776
-  },
-  {
-  "lng": 31.2383,
-  "lat": 30.04775
-  },
-  {
-  "lng": 31.23829,
-  "lat": 30.04774
-  },
-  {
-  "lng": 31.23828,
-  "lat": 30.04773
-  },
-  {
-  "lng": 31.23826,
-  "lat": 30.0477
-  },
-  {
-  "lng": 31.2382588,
-  "lat": 30.0477,
-  "type": "waypoint",
-  "polyline": "cukvDcft}DD@@@B?B?@?B?BA@?",
-  "dir": "Slight <b>left</b> onto <b>Kasr Al Nile</b>",
-  "step": "turn-slight-left",
-  "nextturn": "turn-slight-left",
-  "dist": {
-  "val": 16,
-  "txt": "16 m",
-  "total": 2863
-  },
-  "timeto": {
-  "val": 3,
+  "val": 42,
   "txt": "1 min"
   }
   },
   {
-  "lng": 31.23825,
-  "lat": 30.04767
+  "lng": 31.24425,
+  "lat": 30.05187
   },
   {
-  "lng": 31.23824,
-  "lat": 30.04766
+  "lng": 31.24426,
+  "lat": 30.05253
   },
   {
-  "lng": 31.23824,
-  "lat": 30.04764
-  },
-  {
-  "lng": 31.23824,
-  "lat": 30.04762
-  },
-  {
-  "lng": 31.23824,
-  "lat": 30.04761
-  },
-  {
-  "lng": 31.23824,
-  "lat": 30.04759
-  },
-  {
-  "lng": 31.23825,
-  "lat": 30.04757
-  },
-  {
-  "lng": 31.23825,
-  "lat": 30.04756
-  },
-  {
-  "lng": 31.2382521,
-  "lat": 30.0475586,
+  "lng": 31.2442627,
+  "lat": 30.0525341,
   "type": "waypoint",
-  "polyline": "gtkvDaft}Dl@nB@DZdAFd@Lr@Np@XlAHXf@~Af@lC",
-  "dir": "Turn <b>right</b> to stay on <b>Kasr Al Nile</b>",
+  "polyline": "islvDsku}DC|@AvA?jAA\\AlBAVEbBAZC`@G`@WlAWlAERYlAYlAKf@g@|BeArD",
+  "dir": "Turn <b>left</b> at the 1st cross street onto <b>26 July St</b>",
+  "step": "turn-left",
+  "nextturn": "turn-left",
+  "dist": {
+  "val": 633,
+  "txt": "0.6 km",
+  "total": 2826
+  },
+  "timeto": {
+  "val": 267,
+  "txt": "4 mins"
+  }
+  },
+  {
+  "lng": 31.24395,
+  "lat": 30.05255
+  },
+  {
+  "lng": 31.24351,
+  "lat": 30.05256
+  },
+  {
+  "lng": 31.24313,
+  "lat": 30.05256
+  },
+  {
+  "lng": 31.24298,
+  "lat": 30.05257
+  },
+  {
+  "lng": 31.24243,
+  "lat": 30.05258
+  },
+  {
+  "lng": 31.24231,
+  "lat": 30.05259
+  },
+  {
+  "lng": 31.24181,
+  "lat": 30.05262
+  },
+  {
+  "lng": 31.24167,
+  "lat": 30.05263
+  },
+  {
+  "lng": 31.2415,
+  "lat": 30.05265
+  },
+  {
+  "lng": 31.24133,
+  "lat": 30.05269
+  },
+  {
+  "lng": 31.24094,
+  "lat": 30.05281
+  },
+  {
+  "lng": 31.24055,
+  "lat": 30.05293
+  },
+  {
+  "lng": 31.24045,
+  "lat": 30.05296
+  },
+  {
+  "lng": 31.24006,
+  "lat": 30.05309
+  },
+  {
+  "lng": 31.23967,
+  "lat": 30.05322
+  },
+  {
+  "lng": 31.23947,
+  "lat": 30.05328
+  },
+  {
+  "lng": 31.23884,
+  "lat": 30.05348
+  },
+  {
+  "lng": 31.23794,
+  "lat": 30.05383
+  },
+  {
+  "lng": 31.2379438,
+  "lat": 30.053829,
+  "type": "waypoint",
+  "polyline": "m{lvDcdt}DUn@RPr@v@Z\\j@p@dDpD|AbB~@~@n@p@f@j@r@|@n@tAR`@Xp@\\x@Ll@DZDZL~AFdADv@",
+  "dir": "Turn <b>left</b> onto <b>El-Galaa St</b>",
+  "step": "turn-left",
+  "nextturn": "turn-left",
+  "dist": {
+  "val": 776,
+  "txt": "0.8 km",
+  "total": 3602
+  },
+  "timeto": {
+  "val": 176,
+  "txt": "3 mins"
+  }
+  },
+  {
+  "lng": 31.2377,
+  "lat": 30.05394
+  },
+  {
+  "lng": 31.23761,
+  "lat": 30.05384
+  },
+  {
+  "lng": 31.23733,
+  "lat": 30.05358
+  },
+  {
+  "lng": 31.23718,
+  "lat": 30.05344
+  },
+  {
+  "lng": 31.23693,
+  "lat": 30.05322
+  },
+  {
+  "lng": 31.23604,
+  "lat": 30.05239
+  },
+  {
+  "lng": 31.23554,
+  "lat": 30.05192
+  },
+  {
+  "lng": 31.23522,
+  "lat": 30.0516
+  },
+  {
+  "lng": 31.23497,
+  "lat": 30.05136
+  },
+  {
+  "lng": 31.23475,
+  "lat": 30.05116
+  },
+  {
+  "lng": 31.23444,
+  "lat": 30.0509
+  },
+  {
+  "lng": 31.23401,
+  "lat": 30.05066
+  },
+  {
+  "lng": 31.23384,
+  "lat": 30.05056
+  },
+  {
+  "lng": 31.23359,
+  "lat": 30.05043
+  },
+  {
+  "lng": 31.2333,
+  "lat": 30.05028
+  },
+  {
+  "lng": 31.23307,
+  "lat": 30.05021
+  },
+  {
+  "lng": 31.23293,
+  "lat": 30.05018
+  },
+  {
+  "lng": 31.23279,
+  "lat": 30.05015
+  },
+  {
+  "lng": 31.23231,
+  "lat": 30.05008
+  },
+  {
+  "lng": 31.23196,
+  "lat": 30.05004
+  },
+  {
+  "lng": 31.23168,
+  "lat": 30.05001
+  },
+  {
+  "lng": 31.231682,
+  "lat": 30.050013,
+  "type": "waypoint",
+  "polyline": "qclvD_}r}DCTAHAFCHCFEDCBA@SRoAZy@J}Bp@sBh@{@Zs@Ta@LmAVMDy@VyFrBcDfAw@R_@Hq@NaBZ{@LM@E@K@OBOBI@",
+  "dir": "Turn <b>right</b> onto <b>Nile Corniche</b>",
   "step": "turn-right",
   "nextturn": "turn-right",
   "dist": {
-  "val": 348,
+  "val": 907,
+  "txt": "0.9 km",
+  "total": 4509
+  },
+  "timeto": {
+  "val": 113,
+  "txt": "2 mins"
+  }
+  },
+  {
+  "lng": 31.23157,
+  "lat": 30.05003
+  },
+  {
+  "lng": 31.23152,
+  "lat": 30.05004
+  },
+  {
+  "lng": 31.23148,
+  "lat": 30.05005
+  },
+  {
+  "lng": 31.23143,
+  "lat": 30.05007
+  },
+  {
+  "lng": 31.23139,
+  "lat": 30.05009
+  },
+  {
+  "lng": 31.23136,
+  "lat": 30.05012
+  },
+  {
+  "lng": 31.23134,
+  "lat": 30.05014
+  },
+  {
+  "lng": 31.23133,
+  "lat": 30.05015
+  },
+  {
+  "lng": 31.23123,
+  "lat": 30.05025
+  },
+  {
+  "lng": 31.23109,
+  "lat": 30.05065
+  },
+  {
+  "lng": 31.23103,
+  "lat": 30.05094
+  },
+  {
+  "lng": 31.23078,
+  "lat": 30.05157
+  },
+  {
+  "lng": 31.23057,
+  "lat": 30.05215
+  },
+  {
+  "lng": 31.23043,
+  "lat": 30.05245
+  },
+  {
+  "lng": 31.23032,
+  "lat": 30.05271
+  },
+  {
+  "lng": 31.23025,
+  "lat": 30.05288
+  },
+  {
+  "lng": 31.23013,
+  "lat": 30.05327
+  },
+  {
+  "lng": 31.2301,
+  "lat": 30.05334
+  },
+  {
+  "lng": 31.22998,
+  "lat": 30.05363
+  },
+  {
+  "lng": 31.2294,
+  "lat": 30.05488
+  },
+  {
+  "lng": 31.22904,
+  "lat": 30.0557
+  },
+  {
+  "lng": 31.22894,
+  "lat": 30.05598
+  },
+  {
+  "lng": 31.22889,
+  "lat": 30.05614
+  },
+  {
+  "lng": 31.22881,
+  "lat": 30.05639
+  },
+  {
+  "lng": 31.22867,
+  "lat": 30.05688
+  },
+  {
+  "lng": 31.2286,
+  "lat": 30.05718
+  },
+  {
+  "lng": 31.22859,
+  "lat": 30.05725
+  },
+  {
+  "lng": 31.22858,
+  "lat": 30.05728
+  },
+  {
+  "lng": 31.22857,
+  "lat": 30.05734
+  },
+  {
+  "lng": 31.22855,
+  "lat": 30.05742
+  },
+  {
+  "lng": 31.22853,
+  "lat": 30.0575
+  },
+  {
+  "lng": 31.22852,
+  "lat": 30.05755
+  },
+  {
+  "lng": 31.2285183,
+  "lat": 30.0575473,
+  "type": "waypoint",
+  "polyline": "urmvDgir}Dk@QMGIGEGCGAI?C?G?QBOFKLMLGLAJ?LBJDDFFHHRBL@H@ZAR?HCj@Gb@I^",
+  "dir": "Take the exit toward <b>Alex. Desert Rd.</b>/<wbr/><b>Zamalek</b>",
+  "step": "ramp-right",
+  "nextturn": "ramp-right",
+  "dist": {
+  "val": 252,
   "txt": "0.3 km",
-  "total": 3211
+  "total": 4761
+  },
+  "timeto": {
+  "val": 35,
+  "txt": "1 min"
+  }
+  },
+  {
+  "lng": 31.22861,
+  "lat": 30.05777
+  },
+  {
+  "lng": 31.22865,
+  "lat": 30.05784
+  },
+  {
+  "lng": 31.22869,
+  "lat": 30.05789
+  },
+  {
+  "lng": 31.22873,
+  "lat": 30.05792
+  },
+  {
+  "lng": 31.22877,
+  "lat": 30.05794
+  },
+  {
+  "lng": 31.22882,
+  "lat": 30.05795
+  },
+  {
+  "lng": 31.22884,
+  "lat": 30.05795
+  },
+  {
+  "lng": 31.22888,
+  "lat": 30.05795
+  },
+  {
+  "lng": 31.22897,
+  "lat": 30.05795
+  },
+  {
+  "lng": 31.22905,
+  "lat": 30.05793
+  },
+  {
+  "lng": 31.22911,
+  "lat": 30.05789
+  },
+  {
+  "lng": 31.22918,
+  "lat": 30.05782
+  },
+  {
+  "lng": 31.22922,
+  "lat": 30.05775
+  },
+  {
+  "lng": 31.22923,
+  "lat": 30.05768
+  },
+  {
+  "lng": 31.22923,
+  "lat": 30.05762
+  },
+  {
+  "lng": 31.22921,
+  "lat": 30.05755
+  },
+  {
+  "lng": 31.22918,
+  "lat": 30.05749
+  },
+  {
+  "lng": 31.22914,
+  "lat": 30.05746
+  },
+  {
+  "lng": 31.22909,
+  "lat": 30.05742
+  },
+  {
+  "lng": 31.22899,
+  "lat": 30.05737
+  },
+  {
+  "lng": 31.22892,
+  "lat": 30.05735
+  },
+  {
+  "lng": 31.22887,
+  "lat": 30.05734
+  },
+  {
+  "lng": 31.22873,
+  "lat": 30.05733
+  },
+  {
+  "lng": 31.22863,
+  "lat": 30.05734
+  },
+  {
+  "lng": 31.22858,
+  "lat": 30.05734
+  },
+  {
+  "lng": 31.22836,
+  "lat": 30.05736
+  },
+  {
+  "lng": 31.22818,
+  "lat": 30.0574
+  },
+  {
+  "lng": 31.22802,
+  "lat": 30.05745
+  },
+  {
+  "lng": 31.2280235,
+  "lat": 30.0574456,
+  "type": "waypoint",
+  "polyline": "armvDcfr}DGRGNOb@Qh@g@jBg@jB",
+  "dir": "Merge onto <b>15 May Bridge</b>/<wbr/><b>26th of July Corridor</b>",
+  "step": "merge",
+  "nextturn": "merge",
+  "dist": {
+  "val": 175,
+  "txt": "0.2 km",
+  "total": 4936
+  },
+  "timeto": {
+  "val": 18,
+  "txt": "1 min"
+  }
+  },
+  {
+  "lng": 31.22792,
+  "lat": 30.05749
+  },
+  {
+  "lng": 31.22784,
+  "lat": 30.05753
+  },
+  {
+  "lng": 31.22766,
+  "lat": 30.05761
+  },
+  {
+  "lng": 31.22745,
+  "lat": 30.0577
+  },
+  {
+  "lng": 31.22691,
+  "lat": 30.0579
+  },
+  {
+  "lng": 31.22637,
+  "lat": 30.0581
+  },
+  {
+  "lng": 31.226369,
+  "lat": 30.058105,
+  "type": "waypoint",
+  "polyline": "cvmvDy{q}De@zAUr@A?ITELCDq@zBCFCFAH",
+  "dir": "Take the exit toward <b>Aziz Abaza</b>",
+  "step": "ramp-right",
+  "nextturn": "ramp-right",
+  "dist": {
+  "val": 179,
+  "txt": "0.2 km",
+  "total": 5115
+  },
+  "timeto": {
+  "val": 23,
+  "txt": "1 min"
+  }
+  },
+  {
+  "lng": 31.22591,
+  "lat": 30.05829
+  },
+  {
+  "lng": 31.22565,
+  "lat": 30.0584
+  },
+  {
+  "lng": 31.22565,
+  "lat": 30.05841
+  },
+  {
+  "lng": 31.22554,
+  "lat": 30.05846
+  },
+  {
+  "lng": 31.22547,
+  "lat": 30.05849
+  },
+  {
+  "lng": 31.22544,
+  "lat": 30.05851
+  },
+  {
+  "lng": 31.22482,
+  "lat": 30.05876
+  },
+  {
+  "lng": 31.22478,
+  "lat": 30.05878
+  },
+  {
+  "lng": 31.22474,
+  "lat": 30.0588
+  },
+  {
+  "lng": 31.22469,
+  "lat": 30.05881
+  },
+  {
+  "lng": 31.2246945,
+  "lat": 30.0588144,
+  "type": "waypoint",
+  "polyline": "qzmvDiqq}DSEC?EAE?E@[Du@JuATgBZc@D",
+  "dir": "Turn <b>right</b> onto <b>Aziz Abaza</b>",
+  "step": "turn-right",
+  "nextturn": "turn-right",
+  "dist": {
+  "val": 198,
+  "txt": "0.2 km",
+  "total": 5313
+  },
+  "timeto": {
+  "val": 49,
+  "txt": "1 min"
+  }
+  },
+  {
+  "lng": 31.22472,
+  "lat": 30.05891
+  },
+  {
+  "lng": 31.22472,
+  "lat": 30.05893
+  },
+  {
+  "lng": 31.22473,
+  "lat": 30.05896
+  },
+  {
+  "lng": 31.22473,
+  "lat": 30.05899
+  },
+  {
+  "lng": 31.22472,
+  "lat": 30.05902
+  },
+  {
+  "lng": 31.22469,
+  "lat": 30.05916
+  },
+  {
+  "lng": 31.22463,
+  "lat": 30.05943
+  },
+  {
+  "lng": 31.22452,
+  "lat": 30.05986
+  },
+  {
+  "lng": 31.22438,
+  "lat": 30.06038
+  },
+  {
+  "lng": 31.22435,
+  "lat": 30.06056
+  },
+  {
+  "lng": 31.2243534,
+  "lat": 30.060561,
+  "type": "waypoint",
+  "polyline": "oenvDeoq}DkAtDc@lAYz@kDpI",
+  "dir": "Turn <b>left</b> onto <b>Hassan Assem</b>",
+  "step": "turn-left",
+  "nextturn": "turn-left",
+  "dist": {
+  "val": 361,
+  "txt": "0.4 km",
+  "total": 5674
+  },
+  "timeto": {
+  "val": 113,
+  "txt": "2 mins"
+  }
+  },
+  {
+  "lng": 31.22344,
+  "lat": 30.06094
+  },
+  {
+  "lng": 31.22305,
+  "lat": 30.06112
+  },
+  {
+  "lng": 31.22275,
+  "lat": 30.06125
+  },
+  {
+  "lng": 31.22106,
+  "lat": 30.06211
+  },
+  {
+  "lng": 31.2210635,
+  "lat": 30.0621105,
+  "type": "waypoint",
+  "polyline": "eonvDszp}D_D_B",
+  "dir": "Turn <b>right</b> onto <b>El-Shaheed Ahmed Nabeel</b>",
+  "step": "turn-right",
+  "nextturn": "turn-right",
+  "dist": {
+  "val": 100,
+  "txt": "0.1 km",
+  "total": 5774
+  },
+  "timeto": {
+  "val": 28,
+  "txt": "1 min"
+  }
+  },
+  {
+  "lng": 31.22154,
+  "lat": 30.06291
+  },
+  {
+  "lng": 31.2215367,
+  "lat": 30.0629131,
+  "type": "waypoint",
+  "polyline": "etnvDs}p}Du@jBe@nAUn@s@jBu@pB",
+  "dir": "Turn <b>left</b> onto <b>Ismail Mohammed</b>",
+  "step": "turn-left",
+  "nextturn": "turn-left",
+  "dist": {
+  "val": 252,
+  "txt": "0.3 km",
+  "total": 6026
+  },
+  "timeto": {
+  "val": 80,
+  "txt": "1 min"
+  }
+  },
+  {
+  "lng": 31.221,
+  "lat": 30.06318
+  },
+  {
+  "lng": 31.2206,
+  "lat": 30.06337
+  },
+  {
+  "lng": 31.22036,
+  "lat": 30.06348
+  },
+  {
+  "lng": 31.21982,
+  "lat": 30.06374
+  },
+  {
+  "lng": 31.21925,
+  "lat": 30.06401
+  },
+  {
+  "lng": 31.21925329999999,
+  "lat": 30.0640137,
+  "type": "waypoint",
+  "polyline": "a{nvDiop}DgANa@FcGv@_BTM@",
+  "dir": "Turn <b>right</b> onto <b>Mohammed Thakeb</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+  "step": "turn-right",
+  "nextturn": "turn-right",
+  "dist": {
+  "val": 269,
+  "txt": "0.3 km",
+  "total": 6295
   },
   "timeto": {
   "val": 72,
@@ -775,773 +1297,423 @@
   }
   },
   {
-  "lng": 31.23769,
-  "lat": 30.04733
+  "lng": 31.21917,
+  "lat": 30.06437
   },
   {
-  "lng": 31.23766,
-  "lat": 30.04732
+  "lng": 31.21913,
+  "lat": 30.06454
   },
   {
-  "lng": 31.23731,
-  "lat": 30.04718
+  "lng": 31.21885,
+  "lat": 30.06584
   },
   {
-  "lng": 31.23712,
-  "lat": 30.04714
+  "lng": 31.21874,
+  "lat": 30.06632
   },
   {
-  "lng": 31.23686,
-  "lat": 30.04707
+  "lng": 31.21873,
+  "lat": 30.06639
   },
   {
-  "lng": 31.23661,
-  "lat": 30.04699
-  },
-  {
-  "lng": 31.23622,
-  "lat": 30.04686
-  },
-  {
-  "lng": 31.23609,
-  "lat": 30.04681
-  },
-  {
-  "lng": 31.23561,
-  "lat": 30.04661
-  },
-  {
-  "lng": 31.2349,
-  "lat": 30.04641
-  },
-  {
-  "lng": 31.2348975,
-  "lat": 30.0464054,
-  "type": "waypoint",
-  "polyline": "amkvDcqs}DJr@b@QtCiADAf@QZGl@GPAPC",
-  "dir": "Turn <b>left</b> onto <b>Meret Basha</b>",
-  "step": "turn-left",
-  "nextturn": "turn-left",
-  "dist": {
-  "val": 227,
-  "txt": "0.2 km",
-  "total": 3438
-  },
-  "timeto": {
-  "val": 54,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.23464,
-  "lat": 30.04635
-  },
-  {
-  "lng": 31.23473,
-  "lat": 30.04617
-  },
-  {
-  "lng": 31.2351,
-  "lat": 30.04542
-  },
-  {
-  "lng": 31.23511,
-  "lat": 30.04539
-  },
-  {
-  "lng": 31.2352,
-  "lat": 30.04519
-  },
-  {
-  "lng": 31.23524,
-  "lat": 30.04505
-  },
-  {
-  "lng": 31.23528,
-  "lat": 30.04482
-  },
-  {
-  "lng": 31.23529,
-  "lat": 30.04473
-  },
-  {
-  "lng": 31.23531,
-  "lat": 30.04464
-  },
-  {
-  "lng": 31.2353114,
-  "lat": 30.0446428,
-  "type": "waypoint",
-  "polyline": "_bkvDuss}D@?@@B@@?@@@@B?@?P|ADl@Bf@Dp@JhARxB^nEBP?B?FBP?B?B@L?L",
-  "dir": "At the roundabout, take the <b>1st</b> exit onto <b>El Tahrir</b> heading to <b>Egyptian Musueum</b>",
-  "step": "roundabout-right",
-  "nextturn": "roundabout-right",
-  "dist": {
-  "val": 363,
-  "txt": "0.4 km",
-  "total": 3801
-  },
-  "timeto": {
-  "val": 45,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.23531,
-  "lat": 30.04463
-  },
-  {
-  "lng": 31.2353,
-  "lat": 30.04462
-  },
-  {
-  "lng": 31.23529,
-  "lat": 30.0446
-  },
-  {
-  "lng": 31.23529,
-  "lat": 30.04459
-  },
-  {
-  "lng": 31.23528,
-  "lat": 30.04458
-  },
-  {
-  "lng": 31.23527,
-  "lat": 30.04457
-  },
-  {
-  "lng": 31.23527,
-  "lat": 30.04455
-  },
-  {
-  "lng": 31.23527,
-  "lat": 30.04454
-  },
-  {
-  "lng": 31.2348,
-  "lat": 30.04445
-  },
-  {
-  "lng": 31.23457,
-  "lat": 30.04442
-  },
-  {
-  "lng": 31.23437,
-  "lat": 30.0444
-  },
-  {
-  "lng": 31.23412,
-  "lat": 30.04437
-  },
-  {
-  "lng": 31.23375,
-  "lat": 30.04431
-  },
-  {
-  "lng": 31.23314,
-  "lat": 30.04421
-  },
-  {
-  "lng": 31.2321,
-  "lat": 30.04405
-  },
-  {
-  "lng": 31.23201,
-  "lat": 30.04403
-  },
-  {
-  "lng": 31.23199,
-  "lat": 30.04403
-  },
-  {
-  "lng": 31.23195,
-  "lat": 30.04403
-  },
-  {
-  "lng": 31.23186,
-  "lat": 30.04401
-  },
-  {
-  "lng": 31.23184,
-  "lat": 30.04401
-  },
-  {
-  "lng": 31.23182,
-  "lat": 30.04401
-  },
-  {
-  "lng": 31.23175,
-  "lat": 30.044
-  },
-  {
-  "lng": 31.23168,
-  "lat": 30.044
-  },
-  {
-  "lng": 31.231676,
-  "lat": 30.0439952,
-  "type": "waypoint",
-  "polyline": "_~jvD_}r}DBf@?@@HBh@Bf@HnBLbCN~B?FHhADh@NxB?@JrADd@",
-  "dir": "Continue onto <b>Kasr Al Nile Bridge</b>",
-  "dist": {
-  "val": 426,
-  "txt": "0.4 km",
-  "total": 4227
-  },
-  "timeto": {
-  "val": 50,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.23148,
-  "lat": 30.04398
-  },
-  {
-  "lng": 31.23147,
-  "lat": 30.04398
-  },
-  {
-  "lng": 31.23142,
-  "lat": 30.04397
-  },
-  {
-  "lng": 31.23121,
-  "lat": 30.04395
-  },
-  {
-  "lng": 31.23101,
-  "lat": 30.04393
-  },
-  {
-  "lng": 31.23045,
-  "lat": 30.04388
-  },
-  {
-  "lng": 31.22979,
-  "lat": 30.04381
-  },
-  {
-  "lng": 31.22915,
-  "lat": 30.04373
-  },
-  {
-  "lng": 31.22911,
-  "lat": 30.04373
-  },
-  {
-  "lng": 31.22874,
-  "lat": 30.04368
-  },
-  {
-  "lng": 31.22853,
-  "lat": 30.04365
-  },
-  {
-  "lng": 31.22792,
-  "lat": 30.04357
-  },
-  {
-  "lng": 31.22791,
-  "lat": 30.04357
-  },
-  {
-  "lng": 31.22749,
-  "lat": 30.04351
-  },
-  {
-  "lng": 31.2273,
-  "lat": 30.04348
-  },
-  {
-  "lng": 31.2272953,
-  "lat": 30.0434821,
-  "type": "waypoint",
-  "polyline": "wzjvDsar}DC@A@A@C@A@A@ABA@QBODI?q@BoACmABsENA?aCF[PiEl@}@JgADc@@gAFc@@A@aA?Q?",
-  "dir": "At <b>Opera Square</b>, take the <b>1st</b> exit onto <b>Gezira St</b>",
-  "step": "roundabout-right",
-  "nextturn": "roundabout-right",
-  "dist": {
-  "val": 681,
-  "txt": "0.7 km",
-  "total": 4908
-  },
-  "timeto": {
-  "val": 89,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.22729,
-  "lat": 30.0435
-  },
-  {
-  "lng": 31.22728,
-  "lat": 30.04351
-  },
-  {
-  "lng": 31.22727,
-  "lat": 30.04352
-  },
-  {
-  "lng": 31.22726,
-  "lat": 30.04354
-  },
-  {
-  "lng": 31.22725,
-  "lat": 30.04355
-  },
-  {
-  "lng": 31.22724,
-  "lat": 30.04356
-  },
-  {
-  "lng": 31.22722,
-  "lat": 30.04357
-  },
-  {
-  "lng": 31.22721,
-  "lat": 30.04358
-  },
-  {
-  "lng": 31.22719,
-  "lat": 30.04367
-  },
-  {
-  "lng": 31.22716,
-  "lat": 30.04375
-  },
-  {
-  "lng": 31.22716,
-  "lat": 30.0438
-  },
-  {
-  "lng": 31.22714,
-  "lat": 30.04405
-  },
-  {
-  "lng": 31.22716,
-  "lat": 30.04445
-  },
-  {
-  "lng": 31.22714,
-  "lat": 30.04484
-  },
-  {
-  "lng": 31.22706,
-  "lat": 30.0459
-  },
-  {
-  "lng": 31.22706,
-  "lat": 30.04591
-  },
-  {
-  "lng": 31.22702,
-  "lat": 30.04656
-  },
-  {
-  "lng": 31.22693,
-  "lat": 30.0467
-  },
-  {
-  "lng": 31.2267,
-  "lat": 30.04771
-  },
-  {
-  "lng": 31.22664,
-  "lat": 30.04802
-  },
-  {
-  "lng": 31.22661,
-  "lat": 30.04838
-  },
-  {
-  "lng": 31.2266,
-  "lat": 30.04856
-  },
-  {
-  "lng": 31.22656,
-  "lat": 30.04892
-  },
-  {
-  "lng": 31.22655,
-  "lat": 30.0491
-  },
-  {
-  "lng": 31.22654,
-  "lat": 30.04911
-  },
-  {
-  "lng": 31.22654,
-  "lat": 30.04944
-  },
-  {
-  "lng": 31.22654,
-  "lat": 30.04953
-  },
-  {
-  "lng": 31.2265416,
-  "lat": 30.0495283,
-  "type": "waypoint",
-  "polyline": "q`lvD{|q}DKBODg@DoC?q@@mA?s@?U?O?cC@_@@S@k@BK@O@",
-  "dir": "Slight <b>left</b> to stay on <b>Gezira St</b>",
-  "step": "turn-slight-left",
-  "nextturn": "turn-slight-left",
-  "dist": {
-  "val": 383,
-  "txt": "0.4 km",
-  "total": 5291
-  },
-  "timeto": {
-  "val": 48,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.22652,
-  "lat": 30.04959
-  },
-  {
-  "lng": 31.22649,
-  "lat": 30.04967
-  },
-  {
-  "lng": 31.22646,
-  "lat": 30.04987
-  },
-  {
-  "lng": 31.22646,
-  "lat": 30.05059
-  },
-  {
-  "lng": 31.22645,
-  "lat": 30.05084
-  },
-  {
-  "lng": 31.22645,
-  "lat": 30.05123
-  },
-  {
-  "lng": 31.22645,
-  "lat": 30.05149
-  },
-  {
-  "lng": 31.22645,
-  "lat": 30.0516
-  },
-  {
-  "lng": 31.22645,
-  "lat": 30.05168
-  },
-  {
-  "lng": 31.22644,
-  "lat": 30.05234
-  },
-  {
-  "lng": 31.22643,
-  "lat": 30.0525
-  },
-  {
-  "lng": 31.22642,
-  "lat": 30.0526
-  },
-  {
-  "lng": 31.2264,
-  "lat": 30.05282
-  },
-  {
-  "lng": 31.22639,
-  "lat": 30.05288
-  },
-  {
-  "lng": 31.22638,
-  "lat": 30.05296
-  },
-  {
-  "lng": 31.2263771,
-  "lat": 30.0529594,
-  "type": "waypoint",
-  "polyline": "_vlvD{{q}DCZANAVF|GA`@CRELELGP",
-  "dir": "Turn <b>left</b> onto <b>GSC</b>",
-  "step": "turn-left",
-  "nextturn": "turn-left",
-  "dist": {
-  "val": 221,
-  "txt": "0.2 km",
-  "total": 5512
-  },
-  "timeto": {
-  "val": 105,
-  "txt": "2 mins"
-  }
-  },
-  {
-  "lng": 31.22624,
-  "lat": 30.05298
-  },
-  {
-  "lng": 31.22616,
-  "lat": 30.05299
-  },
-  {
-  "lng": 31.22604,
-  "lat": 30.053
-  },
-  {
-  "lng": 31.22461,
-  "lat": 30.05296
-  },
-  {
-  "lng": 31.22444,
-  "lat": 30.05297
-  },
-  {
-  "lng": 31.22434,
-  "lat": 30.05299
-  },
-  {
-  "lng": 31.22427,
-  "lat": 30.05302
-  },
-  {
-  "lng": 31.2242,
-  "lat": 30.05305
-  },
-  {
-  "lng": 31.22411,
-  "lat": 30.05309
-  },
-  {
-  "lng": 31.22410799999999,
-  "lat": 30.0530868,
-  "type": "waypoint",
-  "polyline": "yvlvDumq}DFBDBB?@?D?DADABA@ABE",
-  "dir": "Turn <b>left</b> onto <b>Al Gazira</b>",
-  "step": "turn-left",
-  "nextturn": "turn-left",
-  "dist": {
-  "val": 30,
-  "txt": "30 m",
-  "total": 5542
-  },
-  "timeto": {
-  "val": 16,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.22409,
-  "lat": 30.05305
-  },
-  {
-  "lng": 31.22407,
-  "lat": 30.05302
-  },
-  {
-  "lng": 31.22407,
-  "lat": 30.053
-  },
-  {
-  "lng": 31.22407,
-  "lat": 30.05299
-  },
-  {
-  "lng": 31.22407,
-  "lat": 30.05296
-  },
-  {
-  "lng": 31.22408,
-  "lat": 30.05293
-  },
-  {
-  "lng": 31.22409,
-  "lat": 30.0529
-  },
-  {
-  "lng": 31.2241,
-  "lat": 30.05288
-  },
-  {
-  "lng": 31.22411,
-  "lat": 30.05287
-  },
-  {
-  "lng": 31.22414,
-  "lat": 30.05285
-  },
-  {
-  "lng": 31.2241392,
-  "lat": 30.0528479,
-  "type": "waypoint",
-  "polyline": "iulvD{mq}D^NNLBJ?@?@Ej@OdCEn@A`@A^?X@d@",
-  "dir": "Turn <b>right</b> to stay on <b>Al Gazira</b>",
-  "step": "turn-right",
-  "nextturn": "turn-right",
-  "dist": {
-  "val": 211,
-  "txt": "0.2 km",
-  "total": 5753
-  },
-  "timeto": {
-  "val": 84,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.22406,
-  "lat": 30.05269
-  },
-  {
-  "lng": 31.22399,
-  "lat": 30.05261
-  },
-  {
-  "lng": 31.22393,
-  "lat": 30.05259
-  },
-  {
-  "lng": 31.22392,
-  "lat": 30.05259
-  },
-  {
-  "lng": 31.22391,
-  "lat": 30.05259
-  },
-  {
-  "lng": 31.22369,
-  "lat": 30.05262
-  },
-  {
-  "lng": 31.22302,
-  "lat": 30.0527
-  },
-  {
-  "lng": 31.22278,
-  "lat": 30.05273
-  },
-  {
-  "lng": 31.22261,
-  "lat": 30.05274
-  },
-  {
-  "lng": 31.22245,
-  "lat": 30.05275
-  },
-  {
-  "lng": 31.22232,
-  "lat": 30.05275
-  },
-  {
-  "lng": 31.22213,
-  "lat": 30.05274
-  },
-  {
-  "lng": 31.2221324,
-  "lat": 30.052742,
-  "type": "waypoint",
-  "polyline": "stlvDiaq}D@T",
-  "dir": "Continue onto <b>Hassan Sabry St</b>",
-  "dist": {
-  "val": 11,
-  "txt": "11 m",
-  "total": 5764
-  },
-  "timeto": {
-  "val": 11,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.22202,
-  "lat": 30.05273
-  },
-  {
-  "lng": 31.2220185,
-  "lat": 30.0527321,
+  "lng": 31.2187301,
+  "lat": 30.0663871,
   "type": "waypoint"
   },
   {
-  "lng": 31.2220185,
-  "lat": 30.0527321,
+  "lng": 31.2187301,
+  "lat": 30.0663871,
   "type": "waypoint",
-  "polyline": "qtlvDs`q}D@P@l@@r@B~G?rA?PA^C^KbBVDX@`A@",
-  "dir": "Head <b>west</b> on <b>Hassan Sabry St</b> toward <b>El Gabalaya St</b>",
+  "polyline": "}iovDalp}Ds@HYDcD^",
+  "dir": "Head <b>north</b> on <b>Mohammed Thakeb</b> toward <b>Mohammed Maraashly</b>",
   "dist": {
-  "val": 389,
-  "txt": "0.4 km",
-  "total": 6153
+  "val": 136,
+  "txt": "0.1 km",
+  "total": 6431
   },
   "timeto": {
-  "val": 110,
+  "val": 34,
+  "txt": "1 min"
+  }
+  },
+  {
+  "lng": 31.21868,
+  "lat": 30.06665
+  },
+  {
+  "lng": 31.21865,
+  "lat": 30.06678
+  },
+  {
+  "lng": 31.21849,
+  "lat": 30.0676
+  },
+  {
+  "lng": 31.2184927,
+  "lat": 30.0675959,
+  "type": "waypoint",
+  "polyline": "oqovDqjp}DgEaDIG",
+  "dir": "Turn <b>right</b> onto <b>Bahgat Ali</b>",
+  "step": "turn-right",
+  "nextturn": "turn-right",
+  "dist": {
+  "val": 142,
+  "txt": "0.1 km",
+  "total": 6573
+  },
+  "timeto": {
+  "val": 31,
+  "txt": "1 min"
+  }
+  },
+  {
+  "lng": 31.2193,
+  "lat": 30.0686
+  },
+  {
+  "lng": 31.21934,
+  "lat": 30.06865
+  },
+  {
+  "lng": 31.2193421,
+  "lat": 30.0686451,
+  "type": "waypoint",
+  "polyline": "axovD{op}D{@nCm@pB",
+  "dir": "Turn <b>left</b> onto <b>Mohammed Anis</b>",
+  "step": "turn-left",
+  "nextturn": "turn-left",
+  "dist": {
+  "val": 138,
+  "txt": "0.1 km",
+  "total": 6711
+  },
+  "timeto": {
+  "val": 40,
+  "txt": "1 min"
+  }
+  },
+  {
+  "lng": 31.21862,
+  "lat": 30.06895
+  },
+  {
+  "lng": 31.21805,
+  "lat": 30.06918
+  },
+  {
+  "lng": 31.2180517,
+  "lat": 30.0691791,
+  "type": "waypoint",
+  "polyline": "k{ovDygp}DtAjAj@f@tAjAz@t@vAhAvAfARLl@Tz@\\h@HZFd@FfALd@B`@@fA?`AI^El@K",
+  "dir": "Turn <b>left</b> onto <b>Abou El Feda</b>",
+  "step": "turn-left",
+  "nextturn": "turn-left",
+  "dist": {
+  "val": 654,
+  "txt": "0.7 km",
+  "total": 7365
+  },
+  "timeto": {
+  "val": 122,
   "txt": "2 mins"
   }
   },
   {
-  "lng": 31.22193,
-  "lat": 30.05272
+  "lng": 31.21767,
+  "lat": 30.06875
   },
   {
-  "lng": 31.2217,
-  "lat": 30.05271
+  "lng": 31.21747,
+  "lat": 30.06853
   },
   {
-  "lng": 31.22144,
-  "lat": 30.0527
+  "lng": 31.21709,
+  "lat": 30.0681
   },
   {
-  "lng": 31.22,
-  "lat": 30.05268
+  "lng": 31.21682,
+  "lat": 30.0678
   },
   {
-  "lng": 31.21958,
-  "lat": 30.05268
+  "lng": 31.21645,
+  "lat": 30.06736
   },
   {
-  "lng": 31.21949,
-  "lat": 30.05268
+  "lng": 31.21609,
+  "lat": 30.06692
   },
   {
-  "lng": 31.21933,
-  "lat": 30.05269
+  "lng": 31.21602,
+  "lat": 30.06682
   },
   {
-  "lng": 31.21917,
-  "lat": 30.05271
+  "lng": 31.21591,
+  "lat": 30.06659
   },
   {
-  "lng": 31.21867,
-  "lat": 30.05277
+  "lng": 31.21576,
+  "lat": 30.06629
   },
   {
-  "lng": 31.21864,
-  "lat": 30.05265
+  "lng": 31.21571,
+  "lat": 30.06608
   },
   {
-  "lng": 31.21863,
+  "lng": 31.21567,
+  "lat": 30.06594
+  },
+  {
+  "lng": 31.21563,
+  "lat": 30.06575
+  },
+  {
+  "lng": 31.21556,
+  "lat": 30.06539
+  },
+  {
+  "lng": 31.21554,
+  "lat": 30.0652
+  },
+  {
+  "lng": 31.21553,
+  "lat": 30.06503
+  },
+  {
+  "lng": 31.21553,
+  "lat": 30.06467
+  },
+  {
+  "lng": 31.21558,
+  "lat": 30.06434
+  },
+  {
+  "lng": 31.21561,
+  "lat": 30.06418
+  },
+  {
+  "lng": 31.21567,
+  "lat": 30.06395
+  },
+  {
+  "lng": 31.2156744,
+  "lat": 30.0639522,
+  "type": "waypoint",
+  "polyline": "uznvD}xo}Dl@M`@I|@OFCn@KTGTETENCB?DAB?JCLCD?BA`BWBAfBYd@KxAYFAr@MVCT@~@WJEPAPCdASjB[dAQp@IhB[XEdDi@zDm@hBW`@Gb@Ih@IHAdAMb@E`@GjBSn@Ij@GZEVE`AWx@I|@KdBYj@M",
+  "dir": "Continue onto <b>El Gabalaya St</b>",
+  "dist": {
+  "val": 1491,
+  "txt": "1.5 km",
+  "total": 8856
+  },
+  "timeto": {
+  "val": 172,
+  "txt": "3 mins"
+  }
+  },
+  {
+  "lng": 31.21574,
+  "lat": 30.06372
+  },
+  {
+  "lng": 31.21579,
+  "lat": 30.06355
+  },
+  {
+  "lng": 31.21587,
+  "lat": 30.06324
+  },
+  {
+  "lng": 31.21589,
+  "lat": 30.0632
+  },
+  {
+  "lng": 31.21595,
+  "lat": 30.06296
+  },
+  {
+  "lng": 31.21599,
+  "lat": 30.06285
+  },
+  {
+  "lng": 31.21602,
+  "lat": 30.06274
+  },
+  {
+  "lng": 31.21605,
+  "lat": 30.06263
+  },
+  {
+  "lng": 31.21607,
+  "lat": 30.06255
+  },
+  {
+  "lng": 31.21607,
+  "lat": 30.06253
+  },
+  {
+  "lng": 31.21608,
+  "lat": 30.0625
+  },
+  {
+  "lng": 31.21608,
+  "lat": 30.06248
+  },
+  {
+  "lng": 31.2161,
+  "lat": 30.06242
+  },
+  {
+  "lng": 31.21612,
+  "lat": 30.06235
+  },
+  {
+  "lng": 31.21612,
+  "lat": 30.06232
+  },
+  {
+  "lng": 31.21613,
+  "lat": 30.0623
+  },
+  {
+  "lng": 31.21625,
+  "lat": 30.06181
+  },
+  {
+  "lng": 31.21626,
+  "lat": 30.06179
+  },
+  {
+  "lng": 31.21639,
+  "lat": 30.06127
+  },
+  {
+  "lng": 31.21645,
+  "lat": 30.06108
+  },
+  {
+  "lng": 31.21658,
+  "lat": 30.06063
+  },
+  {
+  "lng": 31.21659,
+  "lat": 30.06059
+  },
+  {
+  "lng": 31.21666,
+  "lat": 30.06033
+  },
+  {
+  "lng": 31.21668,
+  "lat": 30.06021
+  },
+  {
+  "lng": 31.21667,
+  "lat": 30.0601
+  },
+  {
+  "lng": 31.21679,
+  "lat": 30.05978
+  },
+  {
+  "lng": 31.21682,
+  "lat": 30.05972
+  },
+  {
+  "lng": 31.21683,
+  "lat": 30.05963
+  },
+  {
+  "lng": 31.21685,
+  "lat": 30.05954
+  },
+  {
+  "lng": 31.21695,
+  "lat": 30.05919
+  },
+  {
+  "lng": 31.21709,
+  "lat": 30.05865
+  },
+  {
+  "lng": 31.21718,
+  "lat": 30.0583
+  },
+  {
+  "lng": 31.21723,
+  "lat": 30.05805
+  },
+  {
+  "lng": 31.21737,
+  "lat": 30.05752
+  },
+  {
+  "lng": 31.2174,
+  "lat": 30.05739
+  },
+  {
+  "lng": 31.21761,
+  "lat": 30.05656
+  },
+  {
+  "lng": 31.21784,
+  "lat": 30.05562
+  },
+  {
+  "lng": 31.21796,
+  "lat": 30.05509
+  },
+  {
+  "lng": 31.218,
+  "lat": 30.05492
+  },
+  {
+  "lng": 31.21805,
+  "lat": 30.05474
+  },
+  {
+  "lng": 31.2181,
+  "lat": 30.05453
+  },
+  {
+  "lng": 31.21811,
+  "lat": 30.05448
+  },
+  {
+  "lng": 31.21818,
+  "lat": 30.05413
+  },
+  {
+  "lng": 31.21821,
+  "lat": 30.05395
+  },
+  {
+  "lng": 31.21825,
+  "lat": 30.05378
+  },
+  {
+  "lng": 31.21835,
+  "lat": 30.05324
+  },
+  {
+  "lng": 31.2184,
+  "lat": 30.053
+  },
+  {
+  "lng": 31.21844,
+  "lat": 30.05278
+  },
+  {
+  "lng": 31.21847,
+  "lat": 30.05264
+  },
+  {
+  "lng": 31.2185,
   "lat": 30.05252
   },
   {
   "lng": 31.21862,
   "lat": 30.05219
-  },
-  {
-  "lng": 31.2186193,
-  "lat": 30.0521878,
-  "type": "waypoint",
-  "polyline": "eqlvDkkp}Dx@I|@KdBYj@M",
-  "dir": "Merge onto <b>El Gabalaya St</b>",
-  "step": "merge",
-  "nextturn": "merge",
-  "dist": {
-  "val": 151,
-  "txt": "0.2 km",
-  "total": 6304
-  },
-  "timeto": {
-  "val": 18,
-  "txt": "1 min"
-  }
   },
   {
   "lng": 31.21867,
@@ -1570,7 +1742,7 @@
   "dist": {
   "val": 433,
   "txt": "0.4 km",
-  "total": 6737
+  "total": 9289
   },
   "timeto": {
   "val": 48,
@@ -1676,7 +1848,7 @@
   "dist": {
   "val": 36,
   "txt": "36 m",
-  "total": 6773
+  "total": 9325
   },
   "timeto": {
   "val": 4,
@@ -1691,17 +1863,17 @@
   "lng": 31.2169599,
   "lat": 30.0482278,
   "type": "waypoint",
-  "polyline": "mxkvD_ap}DGVABABABCDCDGDEBCBC?A?G@E?G?ICIGIGGIGOEKIWCS?CAG?E@G@E@EBCBCFCVK@A@ABEBGtAQ`@E",
-  "dir": "Keep <b>right</b>, follow signs for <b>Agouza</b> and merge onto <b>Gamal Abd El-Nasser Rd</b>/<wbr/><b>Nile Corniche</b>",
+  "polyline": "mxkvD_ap}DGVABABABCDCDGDEBCBC?A?G@E?G?ICIGIGGIGOEKIWCS?CAG?E@G@E@EBCBCFCVK@A@ABEBGtAQ`@ErAQlDs@",
+  "dir": "Keep <b>right</b>, follow signs for <b>Agouza</b> and merge onto <b>Gamal Abd El-Nasser Rd</b>/<wbr/><b>Nile Corniche</b><div style=\"font-size:0.9em\">Continue to follow Gamal Abd El-Nasser Rd</div>",
   "step": "keep-right",
   "nextturn": "keep-right",
   "dist": {
-  "val": 241,
-  "txt": "0.2 km",
-  "total": 7014
+  "val": 389,
+  "txt": "0.4 km",
+  "total": 9714
   },
   "timeto": {
-  "val": 39,
+  "val": 58,
   "txt": "1 min"
   }
   },
@@ -1858,1809 +2030,23 @@
   "lat": 30.04802
   },
   {
-  "lng": 31.2176728,
-  "lat": 30.0480177,
+  "lng": 31.21776,
+  "lat": 30.0476
+  },
+  {
+  "lng": 31.21802,
+  "lat": 30.04673
+  },
+  {
+  "lng": 31.218024,
+  "lat": 30.04672799999999,
   "type": "waypoint",
-  "polyline": "cwkvDmep}DJ@L@FAF@JBFBDDBBBDHV?@@HD^BR@PANALAHA@EHGDIDG@E@I?GAEECACCACEGKSIq@AEGO",
-  "dir": "Take the <b>6. October Br.</b> ramp",
-  "step": "ramp-right",
-  "nextturn": "ramp-right",
+  "polyline": "aokvDsgp}DhAW`Ci@|Bg@dGmAhAOLCXEt@MdAM",
+  "dir": "Continue onto <b>Nile St</b>",
   "dist": {
-  "val": 220,
-  "txt": "0.2 km",
-  "total": 7234
-  },
-  "timeto": {
-  "val": 32,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.21766,
-  "lat": 30.04796
-  },
-  {
-  "lng": 31.21765,
-  "lat": 30.04789
-  },
-  {
-  "lng": 31.21766,
-  "lat": 30.04785
-  },
-  {
-  "lng": 31.21765,
-  "lat": 30.04781
-  },
-  {
-  "lng": 31.21763,
-  "lat": 30.04775
-  },
-  {
-  "lng": 31.21761,
-  "lat": 30.04771
-  },
-  {
-  "lng": 31.21758,
-  "lat": 30.04768
-  },
-  {
-  "lng": 31.21756,
-  "lat": 30.04766
-  },
-  {
-  "lng": 31.21753,
-  "lat": 30.04764
-  },
-  {
-  "lng": 31.21741,
-  "lat": 30.04759
-  },
-  {
-  "lng": 31.2174,
-  "lat": 30.04759
-  },
-  {
-  "lng": 31.21735,
-  "lat": 30.04758
-  },
-  {
-  "lng": 31.21719,
-  "lat": 30.04755
-  },
-  {
-  "lng": 31.21709,
-  "lat": 30.04753
-  },
-  {
-  "lng": 31.217,
-  "lat": 30.04752
-  },
-  {
-  "lng": 31.21692,
-  "lat": 30.04753
-  },
-  {
-  "lng": 31.21685,
-  "lat": 30.04754
-  },
-  {
-  "lng": 31.2168,
-  "lat": 30.04755
-  },
-  {
-  "lng": 31.21679,
-  "lat": 30.04756
-  },
-  {
-  "lng": 31.21674,
-  "lat": 30.04759
-  },
-  {
-  "lng": 31.21671,
-  "lat": 30.04763
-  },
-  {
-  "lng": 31.21668,
-  "lat": 30.04768
-  },
-  {
-  "lng": 31.21667,
-  "lat": 30.04772
-  },
-  {
-  "lng": 31.21666,
-  "lat": 30.04775
-  },
-  {
-  "lng": 31.21666,
-  "lat": 30.0478
-  },
-  {
-  "lng": 31.21667,
-  "lat": 30.04784
-  },
-  {
-  "lng": 31.2167,
-  "lat": 30.04787
-  },
-  {
-  "lng": 31.21671,
-  "lat": 30.04789
-  },
-  {
-  "lng": 31.21673,
-  "lat": 30.04791
-  },
-  {
-  "lng": 31.21675,
-  "lat": 30.04792
-  },
-  {
-  "lng": 31.21679,
-  "lat": 30.04795
-  },
-  {
-  "lng": 31.21689,
-  "lat": 30.04801
-  },
-  {
-  "lng": 31.21714,
-  "lat": 30.04806
-  },
-  {
-  "lng": 31.21717,
-  "lat": 30.04807
-  },
-  {
-  "lng": 31.21725,
-  "lat": 30.04811
-  },
-  {
-  "lng": 31.2172501,
-  "lat": 30.0481114,
-  "type": "waypoint",
-  "polyline": "uwkvDybp}DE[EYEa@AGC]Gi@Eg@[yCCSCSAOGw@?EO}AC]E]OcBQcCE_AEeAEaCGgFEgFCaDAsAAs@AO?Q?_@Ak@A_@Aa@?EA]?]AwBEkDCkCC{CAk@GwBAsA?MA}AAi@?M?KEa@Gc@Ka@K_@O_@Q]SYUWACGGIGAACCGGOIKIIEAAEC]MSGSGEA[KAA[O[Sg@a@{B}Bm@q@cGmGk@o@k@o@KMKKu@w@iAgAuB_CeBmBs@s@qN_OGGWWyFaGSSMMqEwEU_@O]",
-  "dir": "Merge onto <b>6th of October Bridge</b>",
-  "step": "merge",
-  "nextturn": "merge",
-  "dist": {
-  "val": 3347,
-  "txt": "3.3 km",
-  "total": 10581
-  },
-  "timeto": {
-  "val": 368,
-  "txt": "6 mins"
-  }
-  },
-  {
-  "lng": 31.21739,
-  "lat": 30.04814
-  },
-  {
-  "lng": 31.21752,
-  "lat": 30.04817
-  },
-  {
-  "lng": 31.21769,
-  "lat": 30.0482
-  },
-  {
-  "lng": 31.21773,
-  "lat": 30.04821
-  },
-  {
-  "lng": 31.21788,
-  "lat": 30.04823
-  },
-  {
-  "lng": 31.21809,
-  "lat": 30.04827
-  },
-  {
-  "lng": 31.21829,
-  "lat": 30.0483
-  },
-  {
-  "lng": 31.21906,
-  "lat": 30.04844
-  },
-  {
-  "lng": 31.21916,
-  "lat": 30.04846
-  },
-  {
-  "lng": 31.21926,
-  "lat": 30.04848
-  },
-  {
-  "lng": 31.21934,
-  "lat": 30.04849
-  },
-  {
-  "lng": 31.21962,
-  "lat": 30.04853
-  },
-  {
-  "lng": 31.21965,
-  "lat": 30.04853
-  },
-  {
-  "lng": 31.22012,
-  "lat": 30.04861
-  },
-  {
-  "lng": 31.22027,
-  "lat": 30.04863
-  },
-  {
-  "lng": 31.22042,
-  "lat": 30.04866
-  },
-  {
-  "lng": 31.22092,
-  "lat": 30.04874
-  },
-  {
-  "lng": 31.22158,
-  "lat": 30.04883
-  },
-  {
-  "lng": 31.2219,
-  "lat": 30.04886
-  },
-  {
-  "lng": 31.22225,
-  "lat": 30.04889
-  },
-  {
-  "lng": 31.2229,
-  "lat": 30.04892
-  },
-  {
-  "lng": 31.22406,
-  "lat": 30.04896
-  },
-  {
-  "lng": 31.22522,
-  "lat": 30.04899
-  },
-  {
-  "lng": 31.22603,
-  "lat": 30.04901
-  },
-  {
-  "lng": 31.22645,
-  "lat": 30.04902
-  },
-  {
-  "lng": 31.22671,
-  "lat": 30.04903
-  },
-  {
-  "lng": 31.22679,
-  "lat": 30.04904
-  },
-  {
-  "lng": 31.22688,
-  "lat": 30.04904
-  },
-  {
-  "lng": 31.22704,
-  "lat": 30.04904
-  },
-  {
-  "lng": 31.22726,
-  "lat": 30.04905
-  },
-  {
-  "lng": 31.22742,
-  "lat": 30.04906
-  },
-  {
-  "lng": 31.22759,
-  "lat": 30.04907
-  },
-  {
-  "lng": 31.22762,
-  "lat": 30.04907
-  },
-  {
-  "lng": 31.22777,
-  "lat": 30.04908
-  },
-  {
-  "lng": 31.22792,
-  "lat": 30.04908
-  },
-  {
-  "lng": 31.22852,
-  "lat": 30.04909
-  },
-  {
-  "lng": 31.22938,
-  "lat": 30.04912
-  },
-  {
-  "lng": 31.23008,
-  "lat": 30.04914
-  },
-  {
-  "lng": 31.23086,
-  "lat": 30.04916
-  },
-  {
-  "lng": 31.23108,
-  "lat": 30.04917
-  },
-  {
-  "lng": 31.23168,
-  "lat": 30.04921
-  },
-  {
-  "lng": 31.2321,
-  "lat": 30.04922
-  },
-  {
-  "lng": 31.23217,
-  "lat": 30.04922
-  },
-  {
-  "lng": 31.23264,
-  "lat": 30.04923
-  },
-  {
-  "lng": 31.23285,
-  "lat": 30.04924
-  },
-  {
-  "lng": 31.23292,
-  "lat": 30.04924
-  },
-  {
-  "lng": 31.23298,
-  "lat": 30.04924
-  },
-  {
-  "lng": 31.23315,
-  "lat": 30.04927
-  },
-  {
-  "lng": 31.23333,
-  "lat": 30.04931
-  },
-  {
-  "lng": 31.2335,
-  "lat": 30.04937
-  },
-  {
-  "lng": 31.23366,
-  "lat": 30.04943
-  },
-  {
-  "lng": 31.23382,
-  "lat": 30.04951
-  },
-  {
-  "lng": 31.23397,
-  "lat": 30.0496
-  },
-  {
-  "lng": 31.2341,
-  "lat": 30.0497
-  },
-  {
-  "lng": 31.23422,
-  "lat": 30.04981
-  },
-  {
-  "lng": 31.23424,
-  "lat": 30.04982
-  },
-  {
-  "lng": 31.23428,
-  "lat": 30.04986
-  },
-  {
-  "lng": 31.23432,
-  "lat": 30.04991
-  },
-  {
-  "lng": 31.23433,
-  "lat": 30.04992
-  },
-  {
-  "lng": 31.23435,
-  "lat": 30.04994
-  },
-  {
-  "lng": 31.23439,
-  "lat": 30.04998
-  },
-  {
-  "lng": 31.23444,
-  "lat": 30.05006
-  },
-  {
-  "lng": 31.23449,
-  "lat": 30.05012
-  },
-  {
-  "lng": 31.23452,
-  "lat": 30.05017
-  },
-  {
-  "lng": 31.23453,
-  "lat": 30.05018
-  },
-  {
-  "lng": 31.23455,
-  "lat": 30.05021
-  },
-  {
-  "lng": 31.23462,
-  "lat": 30.05036
-  },
-  {
-  "lng": 31.23466,
-  "lat": 30.05046
-  },
-  {
-  "lng": 31.2347,
-  "lat": 30.05056
-  },
-  {
-  "lng": 31.23471,
-  "lat": 30.05059
-  },
-  {
-  "lng": 31.23477,
-  "lat": 30.05073
-  },
-  {
-  "lng": 31.23478,
-  "lat": 30.05074
-  },
-  {
-  "lng": 31.23486,
-  "lat": 30.05088
-  },
-  {
-  "lng": 31.23496,
-  "lat": 30.05102
-  },
-  {
-  "lng": 31.23513,
-  "lat": 30.05122
-  },
-  {
-  "lng": 31.23576,
-  "lat": 30.05184
-  },
-  {
-  "lng": 31.23601,
-  "lat": 30.05207
-  },
-  {
-  "lng": 31.23736,
-  "lat": 30.05337
-  },
-  {
-  "lng": 31.2376,
-  "lat": 30.05359
-  },
-  {
-  "lng": 31.23784,
-  "lat": 30.05381
-  },
-  {
-  "lng": 31.23791,
-  "lat": 30.05387
-  },
-  {
-  "lng": 31.23797,
-  "lat": 30.05393
-  },
-  {
-  "lng": 31.23825,
-  "lat": 30.0542
-  },
-  {
-  "lng": 31.23861,
-  "lat": 30.05457
-  },
-  {
-  "lng": 31.23925,
-  "lat": 30.05516
-  },
-  {
-  "lng": 31.2398,
-  "lat": 30.05567
-  },
-  {
-  "lng": 31.24006,
-  "lat": 30.05593
-  },
-  {
-  "lng": 31.24262,
-  "lat": 30.05842
-  },
-  {
-  "lng": 31.24266,
-  "lat": 30.05846
-  },
-  {
-  "lng": 31.24278,
-  "lat": 30.05858
-  },
-  {
-  "lng": 31.24407,
-  "lat": 30.05983
-  },
-  {
-  "lng": 31.24417,
-  "lat": 30.05993
-  },
-  {
-  "lng": 31.24424,
-  "lat": 30.06
-  },
-  {
-  "lng": 31.24532,
-  "lat": 30.06105
-  },
-  {
-  "lng": 31.24548,
-  "lat": 30.06116
-  },
-  {
-  "lng": 31.24563,
-  "lat": 30.06124
-  },
-  {
-  "lng": 31.2456313,
-  "lat": 30.0612406,
-  "type": "waypoint",
-  "polyline": "winvDetu}DSc@AKIa@AEEMI[Qi@Ug@S_@GMGIIKCCGIi@m@KQGICEEIIOMUKWM[yAmF]mAiBsGGOiAwDEMQg@GOGOACKSS_@W_@WWOICAYUIESKOGOG_@IYIUGEA]Gc@KYKMGYOWSQQQSSWM[Yk@Qg@YgAOu@SiAI{@E}@C_B@aAD{@NwBJgBB_ABw@A_ACc@Cc@Ia@Kc@sAsEACIUEIKYCEMWMWSe@eAgDYoAMc@GQSo@Ui@EGy@qACGIQI_@e@wBG]ESMe@Me@EUMi@ACMa@CIM_@Ua@Yk@mA}BS[OYi@y@}@iAyAkBu@{@aAcAyA}AqAuAc@g@UYQSi@u@Wa@k@y@e@w@u@mAs@oAAAOWMWWe@gAwBi@gAm@oAk@iAcAoB}@gBm@kA[q@Wu@Wm@So@CGEKEMK[Su@Ii@Ca@A]?W@[@A@[@OBUFc@Ju@L_AJs@NgAHm@Jm@Li@Pm@Rg@Rg@Zm@x@sAxAeC|B_Ev@oArB}Ct@cAJONUV]JQLOl@u@xAqBr@_Ah@u@HO\\q@n@eAvAaCdA{AtByCJQLONQZ_@x@s@l@e@`Ak@~@i@JGJITMtAw@l@_@l@]",
-  "dir": "Continue straight to stay on <b>6th of October Bridge</b>",
-  "step": "straight",
-  "nextturn": "straight",
-  "dist": {
-  "val": 5558,
-  "txt": "5.6 km",
-  "total": 16139
-  },
-  "timeto": {
-  "val": 458,
-  "txt": "8 mins"
-  }
-  },
-  {
-  "lng": 31.24581,
-  "lat": 30.06134
-  },
-  {
-  "lng": 31.24587,
-  "lat": 30.06135
-  },
-  {
-  "lng": 31.24604,
-  "lat": 30.0614
-  },
-  {
-  "lng": 31.24607,
-  "lat": 30.06141
-  },
-  {
-  "lng": 31.24614,
-  "lat": 30.06144
-  },
-  {
-  "lng": 31.24628,
-  "lat": 30.06149
-  },
-  {
-  "lng": 31.24649,
-  "lat": 30.06158
-  },
-  {
-  "lng": 31.24669,
-  "lat": 30.06169
-  },
-  {
-  "lng": 31.24685,
-  "lat": 30.06179
-  },
-  {
-  "lng": 31.24692,
-  "lat": 30.06183
-  },
-  {
-  "lng": 31.24697,
-  "lat": 30.06187
-  },
-  {
-  "lng": 31.24703,
-  "lat": 30.06192
-  },
-  {
-  "lng": 31.24705,
-  "lat": 30.06194
-  },
-  {
-  "lng": 31.2471,
-  "lat": 30.06198
-  },
-  {
-  "lng": 31.24733,
-  "lat": 30.06219
-  },
-  {
-  "lng": 31.24742,
-  "lat": 30.06225
-  },
-  {
-  "lng": 31.24747,
-  "lat": 30.06229
-  },
-  {
-  "lng": 31.2475,
-  "lat": 30.06231
-  },
-  {
-  "lng": 31.24755,
-  "lat": 30.06234
-  },
-  {
-  "lng": 31.24763,
-  "lat": 30.06239
-  },
-  {
-  "lng": 31.24774,
-  "lat": 30.06246
-  },
-  {
-  "lng": 31.24786,
-  "lat": 30.06252
-  },
-  {
-  "lng": 31.248,
-  "lat": 30.06259
-  },
-  {
-  "lng": 31.24919,
-  "lat": 30.06304
-  },
-  {
-  "lng": 31.24958,
-  "lat": 30.06319
-  },
-  {
-  "lng": 31.25096,
-  "lat": 30.06372
-  },
-  {
-  "lng": 31.25104,
-  "lat": 30.06376
-  },
-  {
-  "lng": 31.25196,
-  "lat": 30.06413
-  },
-  {
-  "lng": 31.25203,
-  "lat": 30.06416
-  },
-  {
-  "lng": 31.25223,
-  "lat": 30.06425
-  },
-  {
-  "lng": 31.25231,
-  "lat": 30.06429
-  },
-  {
-  "lng": 31.25239,
-  "lat": 30.06433
-  },
-  {
-  "lng": 31.25241,
-  "lat": 30.06434
-  },
-  {
-  "lng": 31.25251,
-  "lat": 30.0644
-  },
-  {
-  "lng": 31.25267,
-  "lat": 30.0645
-  },
-  {
-  "lng": 31.25283,
-  "lat": 30.06462
-  },
-  {
-  "lng": 31.25295,
-  "lat": 30.06474
-  },
-  {
-  "lng": 31.253,
-  "lat": 30.06482
-  },
-  {
-  "lng": 31.25301,
-  "lat": 30.06484
-  },
-  {
-  "lng": 31.25312,
-  "lat": 30.06497
-  },
-  {
-  "lng": 31.25315,
-  "lat": 30.06502
-  },
-  {
-  "lng": 31.25321,
-  "lat": 30.06512
-  },
-  {
-  "lng": 31.25325,
-  "lat": 30.0652
-  },
-  {
-  "lng": 31.25329,
-  "lat": 30.06528
-  },
-  {
-  "lng": 31.25334,
-  "lat": 30.06544
-  },
-  {
-  "lng": 31.25339,
-  "lat": 30.06557
-  },
-  {
-  "lng": 31.25343,
-  "lat": 30.06568
-  },
-  {
-  "lng": 31.25344,
-  "lat": 30.06571
-  },
-  {
-  "lng": 31.25348,
-  "lat": 30.06586
-  },
-  {
-  "lng": 31.25354,
-  "lat": 30.06604
-  },
-  {
-  "lng": 31.2536,
-  "lat": 30.06617
-  },
-  {
-  "lng": 31.25364,
-  "lat": 30.06624
-  },
-  {
-  "lng": 31.25372,
-  "lat": 30.06637
-  },
-  {
-  "lng": 31.25382,
-  "lat": 30.06649
-  },
-  {
-  "lng": 31.25391,
-  "lat": 30.06658
-  },
-  {
-  "lng": 31.25401,
-  "lat": 30.06667
-  },
-  {
-  "lng": 31.25413,
-  "lat": 30.06677
-  },
-  {
-  "lng": 31.25427,
-  "lat": 30.06684
-  },
-  {
-  "lng": 31.25449,
-  "lat": 30.06697
-  },
-  {
-  "lng": 31.25469,
-  "lat": 30.06706
-  },
-  {
-  "lng": 31.25505,
-  "lat": 30.06719
-  },
-  {
-  "lng": 31.25532,
-  "lat": 30.06727
-  },
-  {
-  "lng": 31.25569,
-  "lat": 30.06737
-  },
-  {
-  "lng": 31.25599,
-  "lat": 30.06742
-  },
-  {
-  "lng": 31.2563,
-  "lat": 30.06745
-  },
-  {
-  "lng": 31.25678,
-  "lat": 30.06747
-  },
-  {
-  "lng": 31.25711,
-  "lat": 30.06746
-  },
-  {
-  "lng": 31.25741,
-  "lat": 30.06743
-  },
-  {
-  "lng": 31.25801,
-  "lat": 30.06735
-  },
-  {
-  "lng": 31.25853,
-  "lat": 30.06729
-  },
-  {
-  "lng": 31.25885,
-  "lat": 30.06727
-  },
-  {
-  "lng": 31.25913,
-  "lat": 30.06725
-  },
-  {
-  "lng": 31.25945,
-  "lat": 30.06726
-  },
-  {
-  "lng": 31.25963,
-  "lat": 30.06728
-  },
-  {
-  "lng": 31.25981,
-  "lat": 30.0673
-  },
-  {
-  "lng": 31.25998,
-  "lat": 30.06735
-  },
-  {
-  "lng": 31.26016,
-  "lat": 30.06741
-  },
-  {
-  "lng": 31.26122,
-  "lat": 30.06783
-  },
-  {
-  "lng": 31.26124,
-  "lat": 30.06784
-  },
-  {
-  "lng": 31.26135,
-  "lat": 30.06789
-  },
-  {
-  "lng": 31.2614,
-  "lat": 30.06792
-  },
-  {
-  "lng": 31.26153,
-  "lat": 30.06798
-  },
-  {
-  "lng": 31.26156,
-  "lat": 30.068
-  },
-  {
-  "lng": 31.26168,
-  "lat": 30.06807
-  },
-  {
-  "lng": 31.2618,
-  "lat": 30.06814
-  },
-  {
-  "lng": 31.26199,
-  "lat": 30.06824
-  },
-  {
-  "lng": 31.26283,
-  "lat": 30.06859
-  },
-  {
-  "lng": 31.26323,
-  "lat": 30.06872
-  },
-  {
-  "lng": 31.26341,
-  "lat": 30.06879
-  },
-  {
-  "lng": 31.2635,
-  "lat": 30.06883
-  },
-  {
-  "lng": 31.26374,
-  "lat": 30.06893
-  },
-  {
-  "lng": 31.26395,
-  "lat": 30.06904
-  },
-  {
-  "lng": 31.26399,
-  "lat": 30.06907
-  },
-  {
-  "lng": 31.2644,
-  "lat": 30.06936
-  },
-  {
-  "lng": 31.26444,
-  "lat": 30.06938
-  },
-  {
-  "lng": 31.26453,
-  "lat": 30.06943
-  },
-  {
-  "lng": 31.26469,
-  "lat": 30.06948
-  },
-  {
-  "lng": 31.26529,
-  "lat": 30.06967
-  },
-  {
-  "lng": 31.26544,
-  "lat": 30.06971
-  },
-  {
-  "lng": 31.26554,
-  "lat": 30.06974
-  },
-  {
-  "lng": 31.26573,
-  "lat": 30.06981
-  },
-  {
-  "lng": 31.26592,
-  "lat": 30.06988
-  },
-  {
-  "lng": 31.26603,
-  "lat": 30.06991
-  },
-  {
-  "lng": 31.26624,
-  "lat": 30.06998
-  },
-  {
-  "lng": 31.26626,
-  "lat": 30.06999
-  },
-  {
-  "lng": 31.26643,
-  "lat": 30.07006
-  },
-  {
-  "lng": 31.26648,
-  "lat": 30.07008
-  },
-  {
-  "lng": 31.26664,
-  "lat": 30.07015
-  },
-  {
-  "lng": 31.26681,
-  "lat": 30.07026
-  },
-  {
-  "lng": 31.26703,
-  "lat": 30.07039
-  },
-  {
-  "lng": 31.26766,
-  "lat": 30.07078
-  },
-  {
-  "lng": 31.2678,
-  "lat": 30.07088
-  },
-  {
-  "lng": 31.26793,
-  "lat": 30.07096
-  },
-  {
-  "lng": 31.26822,
-  "lat": 30.07117
-  },
-  {
-  "lng": 31.26859,
-  "lat": 30.07148
-  },
-  {
-  "lng": 31.26913,
-  "lat": 30.07193
-  },
-  {
-  "lng": 31.26943,
-  "lat": 30.0722
-  },
-  {
-  "lng": 31.26977,
-  "lat": 30.07253
-  },
-  {
-  "lng": 31.27024,
-  "lat": 30.07298
-  },
-  {
-  "lng": 31.27067,
-  "lat": 30.07339
-  },
-  {
-  "lng": 31.27087,
-  "lat": 30.07357
-  },
-  {
-  "lng": 31.271,
-  "lat": 30.07368
-  },
-  {
-  "lng": 31.2711,
-  "lat": 30.07377
-  },
-  {
-  "lng": 31.27137,
-  "lat": 30.07398
-  },
-  {
-  "lng": 31.27154,
-  "lat": 30.0741
-  },
-  {
-  "lng": 31.27183,
-  "lat": 30.07432
-  },
-  {
-  "lng": 31.27211,
-  "lat": 30.07451
-  },
-  {
-  "lng": 31.2725,
-  "lat": 30.07478
-  },
-  {
-  "lng": 31.2729,
-  "lat": 30.07504
-  },
-  {
-  "lng": 31.27291,
-  "lat": 30.07505
-  },
-  {
-  "lng": 31.27303,
-  "lat": 30.07513
-  },
-  {
-  "lng": 31.27315,
-  "lat": 30.0752
-  },
-  {
-  "lng": 31.27334,
-  "lat": 30.07532
-  },
-  {
-  "lng": 31.27394,
-  "lat": 30.07568
-  },
-  {
-  "lng": 31.2743,
-  "lat": 30.07589
-  },
-  {
-  "lng": 31.2747,
-  "lat": 30.07612
-  },
-  {
-  "lng": 31.27507,
-  "lat": 30.07634
-  },
-  {
-  "lng": 31.27563,
-  "lat": 30.07668
-  },
-  {
-  "lng": 31.27615,
-  "lat": 30.07699
-  },
-  {
-  "lng": 31.27653,
-  "lat": 30.07722
-  },
-  {
-  "lng": 31.27678,
-  "lat": 30.07736
-  },
-  {
-  "lng": 31.27705,
-  "lat": 30.07748
-  },
-  {
-  "lng": 31.27728,
-  "lat": 30.0776
-  },
-  {
-  "lng": 31.27752,
-  "lat": 30.0777
-  },
-  {
-  "lng": 31.27756,
-  "lat": 30.07772
-  },
-  {
-  "lng": 31.27762,
-  "lat": 30.07775
-  },
-  {
-  "lng": 31.27769,
-  "lat": 30.07778
-  },
-  {
-  "lng": 31.27783,
-  "lat": 30.07784
-  },
-  {
-  "lng": 31.2781,
-  "lat": 30.07794
-  },
-  {
-  "lng": 31.27831,
-  "lat": 30.07799
-  },
-  {
-  "lng": 31.27848,
-  "lat": 30.07801
-  },
-  {
-  "lng": 31.27863,
-  "lat": 30.07802
-  },
-  {
-  "lng": 31.27875,
-  "lat": 30.07802
-  },
-  {
-  "lng": 31.27889,
-  "lat": 30.07801
-  },
-  {
-  "lng": 31.2789,
-  "lat": 30.078
-  },
-  {
-  "lng": 31.27904,
-  "lat": 30.07799
-  },
-  {
-  "lng": 31.27912,
-  "lat": 30.07798
-  },
-  {
-  "lng": 31.27923,
-  "lat": 30.07796
-  },
-  {
-  "lng": 31.27941,
-  "lat": 30.07792
-  },
-  {
-  "lng": 31.27968,
-  "lat": 30.07786
-  },
-  {
-  "lng": 31.28,
-  "lat": 30.07779
-  },
-  {
-  "lng": 31.28026,
-  "lat": 30.07773
-  },
-  {
-  "lng": 31.28062,
-  "lat": 30.07765
-  },
-  {
-  "lng": 31.28085,
-  "lat": 30.0776
-  },
-  {
-  "lng": 31.28108,
-  "lat": 30.07754
-  },
-  {
-  "lng": 31.28129,
-  "lat": 30.07747
-  },
-  {
-  "lng": 31.28152,
-  "lat": 30.07738
-  },
-  {
-  "lng": 31.28172,
-  "lat": 30.07728
-  },
-  {
-  "lng": 31.28192,
-  "lat": 30.07718
-  },
-  {
-  "lng": 31.28215,
-  "lat": 30.07704
-  },
-  {
-  "lng": 31.28257,
-  "lat": 30.07675
-  },
-  {
-  "lng": 31.28324,
-  "lat": 30.0763
-  },
-  {
-  "lng": 31.2842,
-  "lat": 30.07567
-  },
-  {
-  "lng": 31.2846,
-  "lat": 30.07539
-  },
-  {
-  "lng": 31.28539,
-  "lat": 30.07481
-  },
-  {
-  "lng": 31.28573,
-  "lat": 30.07454
-  },
-  {
-  "lng": 31.28581,
-  "lat": 30.07448
-  },
-  {
-  "lng": 31.28592,
-  "lat": 30.0744
-  },
-  {
-  "lng": 31.28607,
-  "lat": 30.07428
-  },
-  {
-  "lng": 31.28616,
-  "lat": 30.07422
-  },
-  {
-  "lng": 31.28624,
-  "lat": 30.07415
-  },
-  {
-  "lng": 31.28651,
-  "lat": 30.07392
-  },
-  {
-  "lng": 31.28708,
-  "lat": 30.07347
-  },
-  {
-  "lng": 31.2874,
-  "lat": 30.07321
-  },
-  {
-  "lng": 31.28767,
-  "lat": 30.073
-  },
-  {
-  "lng": 31.28775,
-  "lat": 30.07295
-  },
-  {
-  "lng": 31.288,
-  "lat": 30.0728
-  },
-  {
-  "lng": 31.28835,
-  "lat": 30.07256
-  },
-  {
-  "lng": 31.289,
-  "lat": 30.07212
-  },
-  {
-  "lng": 31.28946,
-  "lat": 30.07177
-  },
-  {
-  "lng": 31.29023,
-  "lat": 30.07118
-  },
-  {
-  "lng": 31.29032,
-  "lat": 30.07112
-  },
-  {
-  "lng": 31.2904,
-  "lat": 30.07105
-  },
-  {
-  "lng": 31.29049,
-  "lat": 30.07097
-  },
-  {
-  "lng": 31.29065,
-  "lat": 30.07083
-  },
-  {
-  "lng": 31.29091,
-  "lat": 30.07054
-  },
-  {
-  "lng": 31.2911,
-  "lat": 30.07031
-  },
-  {
-  "lng": 31.29132,
-  "lat": 30.06998
-  },
-  {
-  "lng": 31.29153,
-  "lat": 30.06966
-  },
-  {
-  "lng": 31.29157,
-  "lat": 30.0696
-  },
-  {
-  "lng": 31.29162,
-  "lat": 30.06954
-  },
-  {
-  "lng": 31.29169,
-  "lat": 30.06943
-  },
-  {
-  "lng": 31.29197,
-  "lat": 30.069
-  },
-  {
-  "lng": 31.29213,
-  "lat": 30.06877
-  },
-  {
-  "lng": 31.29228,
-  "lat": 30.06854
-  },
-  {
-  "lng": 31.2922799,
-  "lat": 30.0685426,
-  "type": "waypoint",
-  "polyline": "kwovDww~}DRCP?H?F?JDJDJHFF@@FJFP?BBRAVEREHABEFGFMFKBK@OAOAOEC?MGMIIEe@_@_@]EEY[II_@c@]a@]a@qA{AcAcBGKOa@O_@AA",
-  "dir": "Take the ramp to <b>Orouba Rd.</b>",
-  "step": "ramp-right",
-  "nextturn": "ramp-right",
-  "dist": {
-  "val": 529,
+  "val": 475,
   "txt": "0.5 km",
-  "total": 16668
-  },
-  "timeto": {
-  "val": 48,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.2923,
-  "lat": 30.06844
-  },
-  {
-  "lng": 31.2923,
-  "lat": 30.06835
-  },
-  {
-  "lng": 31.2923,
-  "lat": 30.0683
-  },
-  {
-  "lng": 31.2923,
-  "lat": 30.06826
-  },
-  {
-  "lng": 31.29227,
-  "lat": 30.0682
-  },
-  {
-  "lng": 31.29224,
-  "lat": 30.06814
-  },
-  {
-  "lng": 31.29219,
-  "lat": 30.06808
-  },
-  {
-  "lng": 31.29215,
-  "lat": 30.06804
-  },
-  {
-  "lng": 31.29214,
-  "lat": 30.06803
-  },
-  {
-  "lng": 31.29208,
-  "lat": 30.06799
-  },
-  {
-  "lng": 31.29199,
-  "lat": 30.06795
-  },
-  {
-  "lng": 31.29197,
-  "lat": 30.06795
-  },
-  {
-  "lng": 31.29187,
-  "lat": 30.06793
-  },
-  {
-  "lng": 31.29175,
-  "lat": 30.06794
-  },
-  {
-  "lng": 31.29165,
-  "lat": 30.06797
-  },
-  {
-  "lng": 31.2916,
-  "lat": 30.068
-  },
-  {
-  "lng": 31.29158,
-  "lat": 30.06801
-  },
-  {
-  "lng": 31.29154,
-  "lat": 30.06804
-  },
-  {
-  "lng": 31.2915,
-  "lat": 30.06808
-  },
-  {
-  "lng": 31.29146,
-  "lat": 30.06815
-  },
-  {
-  "lng": 31.29144,
-  "lat": 30.06821
-  },
-  {
-  "lng": 31.29143,
-  "lat": 30.06827
-  },
-  {
-  "lng": 31.29144,
-  "lat": 30.06835
-  },
-  {
-  "lng": 31.29145,
-  "lat": 30.06843
-  },
-  {
-  "lng": 31.29148,
-  "lat": 30.06851
-  },
-  {
-  "lng": 31.29148,
-  "lat": 30.06853
-  },
-  {
-  "lng": 31.29152,
-  "lat": 30.0686
-  },
-  {
-  "lng": 31.29157,
-  "lat": 30.06867
-  },
-  {
-  "lng": 31.2916,
-  "lat": 30.06872
-  },
-  {
-  "lng": 31.29176,
-  "lat": 30.06891
-  },
-  {
-  "lng": 31.29191,
-  "lat": 30.06907
-  },
-  {
-  "lng": 31.29194,
-  "lat": 30.0691
-  },
-  {
-  "lng": 31.29208,
-  "lat": 30.06923
-  },
-  {
-  "lng": 31.29213,
-  "lat": 30.06928
-  },
-  {
-  "lng": 31.29231,
-  "lat": 30.06944
-  },
-  {
-  "lng": 31.29248,
-  "lat": 30.06959
-  },
-  {
-  "lng": 31.29265,
-  "lat": 30.06974
-  },
-  {
-  "lng": 31.29311,
-  "lat": 30.07015
-  },
-  {
-  "lng": 31.29361,
-  "lat": 30.07049
-  },
-  {
-  "lng": 31.29367,
-  "lat": 30.07053
-  },
-  {
-  "lng": 31.29384,
-  "lat": 30.07061
-  },
-  {
-  "lng": 31.294,
-  "lat": 30.07069
-  },
-  {
-  "lng": 31.29401,
-  "lat": 30.0707
-  },
-  {
-  "lng": 31.29401159999999,
-  "lat": 30.0706968,
-  "type": "waypoint",
-  "polyline": "{dpvDqb_~Dm@mBMe@eA}DaAkDe@oBEKmA_Fi@yBcCgKaA_EGUESEOUy@m@cC_@aBWqACKWaAkA}EK_@Om@oAcF{BoJUgAoAsEuAeEKWSg@Yq@{AmD{AoCwD{GqAsByAkB_@e@_AkAc@c@}@iAk@w@UWeAaBsAqB_C{EQ[ISsCaG",
-  "dir": "Merge onto <b>Salah Salem St</b>",
-  "step": "merge",
-  "nextturn": "merge",
-  "dist": {
-  "val": 3000,
-  "txt": "3.0 km",
-  "total": 19668
-  },
-  "timeto": {
-  "val": 259,
-  "txt": "4 mins"
-  }
-  },
-  {
-  "lng": 31.29456,
-  "lat": 30.07093
-  },
-  {
-  "lng": 31.29475,
-  "lat": 30.071
-  },
-  {
-  "lng": 31.2957,
-  "lat": 30.07135
-  },
-  {
-  "lng": 31.29656,
-  "lat": 30.07168
-  },
-  {
-  "lng": 31.29712,
-  "lat": 30.07187
-  },
-  {
-  "lng": 31.29718,
-  "lat": 30.0719
-  },
-  {
-  "lng": 31.2983,
-  "lat": 30.07229
-  },
-  {
-  "lng": 31.29891,
-  "lat": 30.0725
-  },
-  {
-  "lng": 31.30087,
-  "lat": 30.07316
-  },
-  {
-  "lng": 31.30183,
-  "lat": 30.07349
-  },
-  {
-  "lng": 31.30194,
-  "lat": 30.07353
-  },
-  {
-  "lng": 31.30204,
-  "lat": 30.07356
-  },
-  {
-  "lng": 31.30212,
-  "lat": 30.07359
-  },
-  {
-  "lng": 31.30241,
-  "lat": 30.0737
-  },
-  {
-  "lng": 31.30307,
-  "lat": 30.07393
-  },
-  {
-  "lng": 31.30356,
-  "lat": 30.07409
-  },
-  {
-  "lng": 31.30397,
-  "lat": 30.07421
-  },
-  {
-  "lng": 31.30403,
-  "lat": 30.07423
-  },
-  {
-  "lng": 31.30436,
-  "lat": 30.07435
-  },
-  {
-  "lng": 31.30547,
-  "lat": 30.07473
-  },
-  {
-  "lng": 31.30563,
-  "lat": 30.07479
-  },
-  {
-  "lng": 31.30586,
-  "lat": 30.07487
-  },
-  {
-  "lng": 31.307,
-  "lat": 30.07527
-  },
-  {
-  "lng": 31.30884,
-  "lat": 30.07589
-  },
-  {
-  "lng": 31.3092,
-  "lat": 30.076
-  },
-  {
-  "lng": 31.31026,
-  "lat": 30.0764
-  },
-  {
-  "lng": 31.31125,
-  "lat": 30.07683
-  },
-  {
-  "lng": 31.31137,
-  "lat": 30.07689
-  },
-  {
-  "lng": 31.31157,
-  "lat": 30.07699
-  },
-  {
-  "lng": 31.31182,
-  "lat": 30.07712
-  },
-  {
-  "lng": 31.31269,
-  "lat": 30.07758
-  },
-  {
-  "lng": 31.31341,
-  "lat": 30.07804
-  },
-  {
-  "lng": 31.31483,
-  "lat": 30.07896
-  },
-  {
-  "lng": 31.31541,
-  "lat": 30.07937
-  },
-  {
-  "lng": 31.31595,
-  "lat": 30.07982
-  },
-  {
-  "lng": 31.31614,
-  "lat": 30.07998
-  },
-  {
-  "lng": 31.31652,
-  "lat": 30.0803
-  },
-  {
-  "lng": 31.3167,
-  "lat": 30.08048
-  },
-  {
-  "lng": 31.31707,
-  "lat": 30.08079
-  },
-  {
-  "lng": 31.31735,
-  "lat": 30.08101
-  },
-  {
-  "lng": 31.31747,
-  "lat": 30.08112
-  },
-  {
-  "lng": 31.31796,
-  "lat": 30.08147
-  },
-  {
-  "lng": 31.31853,
-  "lat": 30.08189
-  },
-  {
-  "lng": 31.31963,
-  "lat": 30.08253
-  },
-  {
-  "lng": 31.31977,
-  "lat": 30.08262
-  },
-  {
-  "lng": 31.31987,
-  "lat": 30.08267
-  },
-  {
-  "lng": 31.32116,
-  "lat": 30.08341
-  },
-  {
-  "lng": 31.3211568,
-  "lat": 30.083408,
-  "type": "waypoint",
-  "polyline": "itrvDgld~DIQu@wAOYiAaCg@eAaAuBS_@m@uAi@mAGMyBsEQa@Ue@O]c@eAAAaAeCeBoD",
-  "dir": "Continue onto <b>El-Orouba Tunnel</b>/<wbr/><b>Nafak Al Orouba</b><div style=\"font-size:0.9em\">Continue to follow Nafak Al Orouba</div>",
-  "dist": {
-  "val": 778,
-  "txt": "0.8 km",
-  "total": 20446
+  "total": 10189
   },
   "timeto": {
   "val": 53,
@@ -3668,2160 +2054,454 @@
   }
   },
   {
-  "lng": 31.32125,
-  "lat": 30.08346
+  "lng": 31.21814,
+  "lat": 30.04636
   },
   {
-  "lng": 31.32169,
-  "lat": 30.08373
+  "lng": 31.21835,
+  "lat": 30.04571
   },
   {
-  "lng": 31.32182,
-  "lat": 30.08381
+  "lng": 31.21855,
+  "lat": 30.04508
   },
   {
-  "lng": 31.32247,
-  "lat": 30.08418
+  "lng": 31.21894,
+  "lat": 30.04377
   },
   {
-  "lng": 31.32282,
-  "lat": 30.08438
+  "lng": 31.21902,
+  "lat": 30.0434
   },
   {
-  "lng": 31.32341,
-  "lat": 30.08471
+  "lng": 31.21904,
+  "lat": 30.04333
   },
   {
-  "lng": 31.32357,
-  "lat": 30.08481
+  "lng": 31.21907,
+  "lat": 30.0432
   },
   {
-  "lng": 31.324,
-  "lat": 30.08504
+  "lng": 31.21914,
+  "lat": 30.04293
   },
   {
-  "lng": 31.32439,
-  "lat": 30.08525
+  "lng": 31.21921,
+  "lat": 30.04258
   },
   {
-  "lng": 31.32446,
-  "lat": 30.08529
-  },
-  {
-  "lng": 31.32552,
-  "lat": 30.0859
-  },
-  {
-  "lng": 31.32569,
-  "lat": 30.08599
-  },
-  {
-  "lng": 31.32588,
-  "lat": 30.0861
-  },
-  {
-  "lng": 31.32603,
-  "lat": 30.08618
-  },
-  {
-  "lng": 31.32638,
-  "lat": 30.08636
-  },
-  {
-  "lng": 31.32639,
-  "lat": 30.08637
-  },
-  {
-  "lng": 31.32706,
-  "lat": 30.0867
-  },
-  {
-  "lng": 31.32794,
-  "lat": 30.08721
-  },
-  {
-  "lng": 31.3279366,
-  "lat": 30.0872149,
+  "lng": 31.2192087,
+  "lat": 30.0425849,
   "type": "waypoint",
-  "polyline": "alsvDsve~D}AgDoBiEi@mA",
-  "dir": "Continue onto <b>El-Orouba</b>",
-  "dist": {
-  "val": 256,
-  "txt": "0.3 km",
-  "total": 20702
-  },
-  "timeto": {
-  "val": 18,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.32878,
-  "lat": 30.08768
-  },
-  {
-  "lng": 31.32979,
-  "lat": 30.08824
-  },
-  {
-  "lng": 31.33018,
-  "lat": 30.08845
-  },
-  {
-  "lng": 31.3301804,
-  "lat": 30.0884548,
-  "type": "waypoint",
-  "polyline": "yssvDsdf~DH}@L}@d@aAJWJW`@qAxA}DfBaFf@uA`@aBL_@pCgHBE@CBItCeHrAiDjBgFHSHURe@BKJWVw@lEyJPi@bAwC`@oAXwAP{@BOLk@Fw@FwABqABs@JyBFiBHgBDcAFoBBu@HqBJ{BLmBDiA@QF}C@S@UBc@VsFDo@NoDHcABk@NsCDuAHiARqDZyEBy@Bw@JkBLyBDu@JkBB_@Do@Hy@H}A@k@\\_GFeAHgBHoAh@_Lb@gIHqA@Kv@eODuATiFDm@FcBBcCDeBA}AEmAE{@SkCSuBEc@Ca@MyAI{@COIy@C[E[Ee@YwBS}BIy@McAQgBSyBMeBE{@Ek@A]AY?WCw@I}BEkDOeAEkBAg@AkAA_@C[CmAIsDOgGM{FKuDMmESiGKkFO}EO{FEaBCu@C{@K_FEoB]sMGcCOyEGeCEoB?q@",
-  "dir": "Turn <b>right</b> onto <b>El-Thawra St</b>/<wbr/><b>Route 50M</b> (signs for <b>Suez Rd.</b>/<wbr/><b>New Cairo</b>)<div style=\"font-size:0.9em\">Continue to follow Route 50M</div>",
-  "step": "turn-right",
-  "nextturn": "turn-right",
-  "dist": {
-  "val": 7652,
-  "txt": "7.7 km",
-  "total": 28354
-  },
-  "timeto": {
-  "val": 479,
-  "txt": "8 mins"
-  }
-  },
-  {
-  "lng": 31.33049,
-  "lat": 30.0884
-  },
-  {
-  "lng": 31.3308,
-  "lat": 30.08833
-  },
-  {
-  "lng": 31.33113,
-  "lat": 30.08814
-  },
-  {
-  "lng": 31.33125,
-  "lat": 30.08808
-  },
-  {
-  "lng": 31.33137,
-  "lat": 30.08802
-  },
-  {
-  "lng": 31.33178,
-  "lat": 30.08785
-  },
-  {
-  "lng": 31.33273,
-  "lat": 30.0874
-  },
-  {
-  "lng": 31.33386,
-  "lat": 30.08688
-  },
-  {
-  "lng": 31.33429,
-  "lat": 30.08668
-  },
-  {
-  "lng": 31.33478,
-  "lat": 30.08651
-  },
-  {
-  "lng": 31.33494,
-  "lat": 30.08644
-  },
-  {
-  "lng": 31.33642,
-  "lat": 30.08571
-  },
-  {
-  "lng": 31.33645,
-  "lat": 30.08569
-  },
-  {
-  "lng": 31.33647,
-  "lat": 30.08568
-  },
-  {
-  "lng": 31.33652,
-  "lat": 30.08566
-  },
-  {
-  "lng": 31.33799,
-  "lat": 30.08491
-  },
-  {
-  "lng": 31.33884,
-  "lat": 30.08449
-  },
-  {
-  "lng": 31.34,
-  "lat": 30.08395
-  },
-  {
-  "lng": 31.3401,
-  "lat": 30.0839
-  },
-  {
-  "lng": 31.34021,
-  "lat": 30.08385
-  },
-  {
-  "lng": 31.3404,
-  "lat": 30.08375
-  },
-  {
-  "lng": 31.34046,
-  "lat": 30.08373
-  },
-  {
-  "lng": 31.34058,
-  "lat": 30.08367
-  },
-  {
-  "lng": 31.34086,
-  "lat": 30.08355
-  },
-  {
-  "lng": 31.34275,
-  "lat": 30.08252
-  },
-  {
-  "lng": 31.34296,
-  "lat": 30.08243
-  },
-  {
-  "lng": 31.34372,
-  "lat": 30.08209
-  },
-  {
-  "lng": 31.34412,
-  "lat": 30.08192
-  },
-  {
-  "lng": 31.34456,
-  "lat": 30.08179
-  },
-  {
-  "lng": 31.34486,
-  "lat": 30.0817
-  },
-  {
-  "lng": 31.34494,
-  "lat": 30.08168
-  },
-  {
-  "lng": 31.34516,
-  "lat": 30.08161
-  },
-  {
-  "lng": 31.34544,
-  "lat": 30.08157
-  },
-  {
-  "lng": 31.34588,
-  "lat": 30.08153
-  },
-  {
-  "lng": 31.34629,
-  "lat": 30.08151
-  },
-  {
-  "lng": 31.34655,
-  "lat": 30.08149
-  },
-  {
-  "lng": 31.34716,
-  "lat": 30.08143
-  },
-  {
-  "lng": 31.34769,
-  "lat": 30.08139
-  },
-  {
-  "lng": 31.34821,
-  "lat": 30.08134
-  },
-  {
-  "lng": 31.34855,
-  "lat": 30.08131
-  },
-  {
-  "lng": 31.34911,
-  "lat": 30.08127
-  },
-  {
-  "lng": 31.34938,
-  "lat": 30.08125
-  },
-  {
-  "lng": 31.34995,
-  "lat": 30.0812
-  },
-  {
-  "lng": 31.35057,
-  "lat": 30.08114
-  },
-  {
-  "lng": 31.35112,
-  "lat": 30.08107
-  },
-  {
-  "lng": 31.35149,
-  "lat": 30.08104
-  },
-  {
-  "lng": 31.35158,
-  "lat": 30.08103
-  },
-  {
-  "lng": 31.35237,
-  "lat": 30.08099
-  },
-  {
-  "lng": 31.35247,
-  "lat": 30.08098
-  },
-  {
-  "lng": 31.35258,
-  "lat": 30.08097
-  },
-  {
-  "lng": 31.35276,
-  "lat": 30.08095
-  },
-  {
-  "lng": 31.35398,
-  "lat": 30.08083
-  },
-  {
-  "lng": 31.35422,
-  "lat": 30.0808
-  },
-  {
-  "lng": 31.3551,
-  "lat": 30.08072
-  },
-  {
-  "lng": 31.35544,
-  "lat": 30.08067
-  },
-  {
-  "lng": 31.35566,
-  "lat": 30.08065
-  },
-  {
-  "lng": 31.3564,
-  "lat": 30.08057
-  },
-  {
-  "lng": 31.35683,
-  "lat": 30.08054
-  },
-  {
-  "lng": 31.3572,
-  "lat": 30.08049
-  },
-  {
-  "lng": 31.35809,
-  "lat": 30.08039
-  },
-  {
-  "lng": 31.35918,
-  "lat": 30.08025
-  },
-  {
-  "lng": 31.35947,
-  "lat": 30.08023
-  },
-  {
-  "lng": 31.35975,
-  "lat": 30.08021
-  },
-  {
-  "lng": 31.36029,
-  "lat": 30.08015
-  },
-  {
-  "lng": 31.3609,
-  "lat": 30.08008
-  },
-  {
-  "lng": 31.36117,
-  "lat": 30.08005
-  },
-  {
-  "lng": 31.36171,
-  "lat": 30.07999
-  },
-  {
-  "lng": 31.36187,
-  "lat": 30.07997
-  },
-  {
-  "lng": 31.36211,
-  "lat": 30.07994
-  },
-  {
-  "lng": 31.3624,
-  "lat": 30.07989
-  },
-  {
-  "lng": 31.36287,
-  "lat": 30.07984
-  },
-  {
-  "lng": 31.36309,
-  "lat": 30.07983
-  },
-  {
-  "lng": 31.36437,
-  "lat": 30.07968
-  },
-  {
-  "lng": 31.36472,
-  "lat": 30.07964
-  },
-  {
-  "lng": 31.36524,
-  "lat": 30.07959
-  },
-  {
-  "lng": 31.36564,
-  "lat": 30.07954
-  },
-  {
-  "lng": 31.36772,
-  "lat": 30.07933
-  },
-  {
-  "lng": 31.36936,
-  "lat": 30.07915
-  },
-  {
-  "lng": 31.36977,
-  "lat": 30.0791
-  },
-  {
-  "lng": 31.36983,
-  "lat": 30.07909
-  },
-  {
-  "lng": 31.37242,
-  "lat": 30.07881
-  },
-  {
-  "lng": 31.37285,
-  "lat": 30.07878
-  },
-  {
-  "lng": 31.37402,
-  "lat": 30.07867
-  },
-  {
-  "lng": 31.37425,
-  "lat": 30.07864
-  },
-  {
-  "lng": 31.37475,
-  "lat": 30.0786
-  },
-  {
-  "lng": 31.37541,
-  "lat": 30.07858
-  },
-  {
-  "lng": 31.37592,
-  "lat": 30.07855
-  },
-  {
-  "lng": 31.37639,
-  "lat": 30.07856
-  },
-  {
-  "lng": 31.37678,
-  "lat": 30.07859
-  },
-  {
-  "lng": 31.37708,
-  "lat": 30.07862
-  },
-  {
-  "lng": 31.37778,
-  "lat": 30.07872
-  },
-  {
-  "lng": 31.37837,
-  "lat": 30.07882
-  },
-  {
-  "lng": 31.37855,
-  "lat": 30.07885
-  },
-  {
-  "lng": 31.37872,
-  "lat": 30.07887
-  },
-  {
-  "lng": 31.37917,
-  "lat": 30.07894
-  },
-  {
-  "lng": 31.37947,
-  "lat": 30.07899
-  },
-  {
-  "lng": 31.37955,
-  "lat": 30.07901
-  },
-  {
-  "lng": 31.37984,
-  "lat": 30.07906
-  },
-  {
-  "lng": 31.37998,
-  "lat": 30.07908
-  },
-  {
-  "lng": 31.38012,
-  "lat": 30.07911
-  },
-  {
-  "lng": 31.38031,
-  "lat": 30.07914
-  },
-  {
-  "lng": 31.38091,
-  "lat": 30.07927
-  },
-  {
-  "lng": 31.38154,
-  "lat": 30.07937
-  },
-  {
-  "lng": 31.38183,
-  "lat": 30.07942
-  },
-  {
-  "lng": 31.38217,
-  "lat": 30.07949
-  },
-  {
-  "lng": 31.38269,
-  "lat": 30.07958
-  },
-  {
-  "lng": 31.3833,
-  "lat": 30.07968
-  },
-  {
-  "lng": 31.38381,
-  "lat": 30.07975
-  },
-  {
-  "lng": 31.38411,
-  "lat": 30.07978
-  },
-  {
-  "lng": 31.38433,
-  "lat": 30.07981
-  },
-  {
-  "lng": 31.38448,
-  "lat": 30.07982
-  },
-  {
-  "lng": 31.38461,
-  "lat": 30.07983
-  },
-  {
-  "lng": 31.38473,
-  "lat": 30.07983
-  },
-  {
-  "lng": 31.38501,
-  "lat": 30.07985
-  },
-  {
-  "lng": 31.38564,
-  "lat": 30.0799
-  },
-  {
-  "lng": 31.3865,
-  "lat": 30.07993
-  },
-  {
-  "lng": 31.38685,
-  "lat": 30.08001
-  },
-  {
-  "lng": 31.38739,
-  "lat": 30.08004
-  },
-  {
-  "lng": 31.38759,
-  "lat": 30.08005
-  },
-  {
-  "lng": 31.38797,
-  "lat": 30.08006
-  },
-  {
-  "lng": 31.38813,
-  "lat": 30.08007
-  },
-  {
-  "lng": 31.38827,
-  "lat": 30.08009
-  },
-  {
-  "lng": 31.38866,
-  "lat": 30.08011
-  },
-  {
-  "lng": 31.38956,
-  "lat": 30.08016
-  },
-  {
-  "lng": 31.39088,
-  "lat": 30.08024
-  },
-  {
-  "lng": 31.39214,
-  "lat": 30.08031
-  },
-  {
-  "lng": 31.39305,
-  "lat": 30.08037
-  },
-  {
-  "lng": 31.39408,
-  "lat": 30.08044
-  },
-  {
-  "lng": 31.39541,
-  "lat": 30.08054
-  },
-  {
-  "lng": 31.39659,
-  "lat": 30.0806
-  },
-  {
-  "lng": 31.3977,
-  "lat": 30.08068
-  },
-  {
-  "lng": 31.39896,
-  "lat": 30.08076
-  },
-  {
-  "lng": 31.39945,
-  "lat": 30.08079
-  },
-  {
-  "lng": 31.39972,
-  "lat": 30.08081
-  },
-  {
-  "lng": 31.40002,
-  "lat": 30.08083
-  },
-  {
-  "lng": 31.40114,
-  "lat": 30.08089
-  },
-  {
-  "lng": 31.4017,
-  "lat": 30.08092
-  },
-  {
-  "lng": 31.40404,
-  "lat": 30.08107
-  },
-  {
-  "lng": 31.4047,
-  "lat": 30.08111
-  },
-  {
-  "lng": 31.40579,
-  "lat": 30.08119
-  },
-  {
-  "lng": 31.40646,
-  "lat": 30.08123
-  },
-  {
-  "lng": 31.40702,
-  "lat": 30.08126
-  },
-  {
-  "lng": 31.40727,
-  "lat": 30.08126
-  },
-  {
-  "lng": 31.4072703,
-  "lat": 30.0812606,
-  "type": "waypoint",
-  "polyline": "{frvDmfu~DXwALi@AiA?gE@m@HiFJ_DFuALaCNqBTeD`A_JfBcMN_Al@qD\\qBPeA|AyKF_@Hy@RiCL_C@oB@W?{AA{AAaAEgBSgEGiAEq@?QUyGM{C",
-  "dir": "Take the exit",
-  "step": "ramp-right",
-  "nextturn": "ramp-right",
-  "dist": {
-  "val": 2255,
-  "txt": "2.3 km",
-  "total": 30609
-  },
-  "timeto": {
-  "val": 105,
-  "txt": "2 mins"
-  }
-  },
-  {
-  "lng": 31.40771,
-  "lat": 30.08113
-  },
-  {
-  "lng": 31.40792,
-  "lat": 30.08106
-  },
-  {
-  "lng": 31.40829,
-  "lat": 30.08107
-  },
-  {
-  "lng": 31.40929,
-  "lat": 30.08107
-  },
-  {
-  "lng": 31.40952,
-  "lat": 30.08106
-  },
-  {
-  "lng": 31.41069,
-  "lat": 30.08101
-  },
-  {
-  "lng": 31.41149,
-  "lat": 30.08095
-  },
-  {
-  "lng": 31.41192,
-  "lat": 30.08091
-  },
-  {
-  "lng": 31.41257,
-  "lat": 30.08084
-  },
-  {
-  "lng": 31.41314,
-  "lat": 30.08076
-  },
-  {
-  "lng": 31.41397,
-  "lat": 30.08065
-  },
-  {
-  "lng": 31.41573,
-  "lat": 30.08032
-  },
-  {
-  "lng": 31.41799,
-  "lat": 30.0798
-  },
-  {
-  "lng": 31.41831,
-  "lat": 30.07972
-  },
-  {
-  "lng": 31.4192,
-  "lat": 30.07949
-  },
-  {
-  "lng": 31.41977,
-  "lat": 30.07934
-  },
-  {
-  "lng": 31.42012,
-  "lat": 30.07925
-  },
-  {
-  "lng": 31.42217,
-  "lat": 30.07878
-  },
-  {
-  "lng": 31.42233,
-  "lat": 30.07874
-  },
-  {
-  "lng": 31.42262,
-  "lat": 30.07869
-  },
-  {
-  "lng": 31.42331,
-  "lat": 30.07859
-  },
-  {
-  "lng": 31.42395,
-  "lat": 30.07852
-  },
-  {
-  "lng": 31.42451,
-  "lat": 30.07851
-  },
-  {
-  "lng": 31.42463,
-  "lat": 30.0785
-  },
-  {
-  "lng": 31.42509,
-  "lat": 30.0785
-  },
-  {
-  "lng": 31.42555,
-  "lat": 30.07851
-  },
-  {
-  "lng": 31.42588,
-  "lat": 30.07852
-  },
-  {
-  "lng": 31.4264,
-  "lat": 30.07855
-  },
-  {
-  "lng": 31.4274,
-  "lat": 30.07865
-  },
-  {
-  "lng": 31.42777,
-  "lat": 30.07869
-  },
-  {
-  "lng": 31.42802,
-  "lat": 30.07872
-  },
-  {
-  "lng": 31.42811,
-  "lat": 30.07872
-  },
-  {
-  "lng": 31.42952,
-  "lat": 30.07883
-  },
-  {
-  "lng": 31.4303,
-  "lat": 30.0789
-  },
-  {
-  "lng": 31.430301,
-  "lat": 30.0788972,
-  "type": "waypoint",
-  "polyline": "cxqvDkvy~DK_BMqDMwCGmA?e@QyF?]MsBE}@Eq@E}@GwA",
-  "dir": "Keep <b>left</b>",
+  "polyline": "cujvDaop}D~@Wn@OREp@Qt@OBAb@I\\Gt@MFADAL?NAL?N?L@J?B?L@LBL@NDLDHBB@NDLDh@NTFbIjB\\Jf@NXHB@NL",
+  "dir": "Keep <b>left</b> to continue on <b>Al Agoza Tunnel</b>",
   "step": "keep-left",
   "nextturn": "keep-left",
   "dist": {
-  "val": 580,
+  "val": 628,
   "txt": "0.6 km",
-  "total": 31189
+  "total": 10817
   },
   "timeto": {
-  "val": 29,
+  "val": 55,
   "txt": "1 min"
   }
   },
   {
-  "lng": 31.43078,
-  "lat": 30.07896
+  "lng": 31.21933,
+  "lat": 30.04226
   },
   {
-  "lng": 31.43167,
-  "lat": 30.07903
+  "lng": 31.21941,
+  "lat": 30.04202
   },
   {
-  "lng": 31.43243,
-  "lat": 30.0791
+  "lng": 31.21944,
+  "lat": 30.04192
   },
   {
-  "lng": 31.43282,
-  "lat": 30.07914
+  "lng": 31.21953,
+  "lat": 30.04167
   },
   {
-  "lng": 31.43301,
-  "lat": 30.07914
+  "lng": 31.21961,
+  "lat": 30.0414
   },
   {
-  "lng": 31.43426,
-  "lat": 30.07923
+  "lng": 31.21962,
+  "lat": 30.04138
   },
   {
-  "lng": 31.43441,
-  "lat": 30.07923
+  "lng": 31.21967,
+  "lat": 30.0412
   },
   {
-  "lng": 31.43499,
-  "lat": 30.0793
+  "lng": 31.21971,
+  "lat": 30.04105
   },
   {
-  "lng": 31.4353,
-  "lat": 30.07933
+  "lng": 31.21978,
+  "lat": 30.04078
   },
   {
-  "lng": 31.43555,
-  "lat": 30.07936
+  "lng": 31.21979,
+  "lat": 30.04074
   },
   {
-  "lng": 31.43586,
-  "lat": 30.07939
+  "lng": 31.2198,
+  "lat": 30.04071
   },
   {
-  "lng": 31.4363,
-  "lat": 30.07943
+  "lng": 31.2198,
+  "lat": 30.04064
   },
   {
-  "lng": 31.4362979,
-  "lat": 30.0794278,
+  "lng": 31.21981,
+  "lat": 30.04056
+  },
+  {
+  "lng": 31.21981,
+  "lat": 30.04049
+  },
+  {
+  "lng": 31.21981,
+  "lat": 30.04041
+  },
+  {
+  "lng": 31.2198,
+  "lat": 30.04034
+  },
+  {
+  "lng": 31.2198,
+  "lat": 30.04028
+  },
+  {
+  "lng": 31.2198,
+  "lat": 30.04026
+  },
+  {
+  "lng": 31.21979,
+  "lat": 30.04019
+  },
+  {
+  "lng": 31.21977,
+  "lat": 30.04012
+  },
+  {
+  "lng": 31.21976,
+  "lat": 30.04005
+  },
+  {
+  "lng": 31.21973,
+  "lat": 30.03997
+  },
+  {
+  "lng": 31.2197,
+  "lat": 30.0399
+  },
+  {
+  "lng": 31.21968,
+  "lat": 30.03985
+  },
+  {
+  "lng": 31.21967,
+  "lat": 30.03983
+  },
+  {
+  "lng": 31.21964,
+  "lat": 30.03975
+  },
+  {
+  "lng": 31.21961,
+  "lat": 30.03968
+  },
+  {
+  "lng": 31.21953,
+  "lat": 30.03947
+  },
+  {
+  "lng": 31.21949,
+  "lat": 30.03936
+  },
+  {
+  "lng": 31.21895,
+  "lat": 30.03774
+  },
+  {
+  "lng": 31.21889,
+  "lat": 30.03759
+  },
+  {
+  "lng": 31.21881,
+  "lat": 30.03739
+  },
+  {
+  "lng": 31.21876,
+  "lat": 30.03726
+  },
+  {
+  "lng": 31.21875,
+  "lat": 30.03724
+  },
+  {
+  "lng": 31.21868,
+  "lat": 30.03716
+  },
+  {
+  "lng": 31.2186805,
+  "lat": 30.0371607,
   "type": "waypoint",
-  "polyline": "m{qvD{{z~DAKCi@KcCOgCIoCM{DMoECmAOmC]gF?IMuBWyBCEQmB",
-  "dir": "Keep <b>left</b> at the fork",
-  "step": "fork-left",
-  "nextturn": "fork-left",
+  "polyline": "gsivDwkp}DZFv@RlB`@`D|@XF`@JhB`@fAZjA\\fEx@hEbAZJb@Rp@Tr@TdA^RFXF`@DN@P?~BG~BGf@Bf@Bd@Ed@Gl@Cn@CNA|BEzCIpBC\\A@?VBxBD\\@lHFz@BpKf@",
+  "dir": "Slight <b>left</b> onto <b>Charles de Gaulle</b>/<wbr/><b>Giza St</b><div style=\"font-size:0.9em\">Continue to follow Charles de Gaulle</div>",
+  "step": "turn-slight-left",
+  "nextturn": "turn-slight-left",
   "dist": {
-  "val": 816,
-  "txt": "0.8 km",
-  "total": 32005
+  "val": 1880,
+  "txt": "1.9 km",
+  "total": 12697
   },
   "timeto": {
-  "val": 42,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.43636,
-  "lat": 30.07944
-  },
-  {
-  "lng": 31.43657,
-  "lat": 30.07946
-  },
-  {
-  "lng": 31.43723,
-  "lat": 30.07952
-  },
-  {
-  "lng": 31.43791,
-  "lat": 30.0796
-  },
-  {
-  "lng": 31.43863,
-  "lat": 30.07965
-  },
-  {
-  "lng": 31.43957,
-  "lat": 30.07972
-  },
-  {
-  "lng": 31.44061,
-  "lat": 30.07979
-  },
-  {
-  "lng": 31.441,
-  "lat": 30.07981
-  },
-  {
-  "lng": 31.44171,
-  "lat": 30.07989
-  },
-  {
-  "lng": 31.44287,
-  "lat": 30.08004
-  },
-  {
-  "lng": 31.44292,
-  "lat": 30.08004
-  },
-  {
-  "lng": 31.44351,
-  "lat": 30.08011
-  },
-  {
-  "lng": 31.44412,
-  "lat": 30.08023
-  },
-  {
-  "lng": 31.44415,
-  "lat": 30.08025
-  },
-  {
-  "lng": 31.4447,
-  "lat": 30.08034
-  },
-  {
-  "lng": 31.4446973,
-  "lat": 30.08034469999999,
-  "type": "waypoint",
-  "polyline": "carvDkp|~DQ_EM_DM_EG_A]kISiE",
-  "dir": "Keep <b>right</b>",
-  "step": "keep-right",
-  "nextturn": "keep-right",
-  "dist": {
-  "val": 553,
-  "txt": "0.6 km",
-  "total": 32558
-  },
-  "timeto": {
-  "val": 27,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.44566,
-  "lat": 30.08043
-  },
-  {
-  "lng": 31.44646,
-  "lat": 30.0805
-  },
-  {
-  "lng": 31.44742,
-  "lat": 30.08057
-  },
-  {
-  "lng": 31.44774,
-  "lat": 30.08061
-  },
-  {
-  "lng": 31.4494,
-  "lat": 30.08076
-  },
-  {
-  "lng": 31.45041,
-  "lat": 30.08086
-  },
-  {
-  "lng": 31.4504119,
-  "lat": 30.0808575,
-  "type": "waypoint",
-  "polyline": "kdrvDat}~DO{BOqEQ_FG{AgAyKi@qGs@{KMoBEUGWEEEKKMEGYsMQwECkCAs@@_CA}CCoBImCIqDG_C",
-  "dir": "Continue straight",
-  "step": "straight",
-  "nextturn": "straight",
-  "dist": {
-  "val": 1783,
-  "txt": "1.8 km",
-  "total": 34341
-  },
-  "timeto": {
-  "val": 81,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.45103,
-  "lat": 30.08094
-  },
-  {
-  "lng": 31.45208,
-  "lat": 30.08102
-  },
-  {
-  "lng": 31.4532,
-  "lat": 30.08111
-  },
-  {
-  "lng": 31.45366,
-  "lat": 30.08115
-  },
-  {
-  "lng": 31.45571,
-  "lat": 30.08151
-  },
-  {
-  "lng": 31.45708,
-  "lat": 30.08172
-  },
-  {
-  "lng": 31.45914,
-  "lat": 30.08198
-  },
-  {
-  "lng": 31.4597,
-  "lat": 30.08205
-  },
-  {
-  "lng": 31.45981,
-  "lat": 30.08208
-  },
-  {
-  "lng": 31.45993,
-  "lat": 30.08212
-  },
-  {
-  "lng": 31.45996,
-  "lat": 30.08215
-  },
-  {
-  "lng": 31.46002,
-  "lat": 30.08218
-  },
-  {
-  "lng": 31.46009,
-  "lat": 30.08224
-  },
-  {
-  "lng": 31.46013,
-  "lat": 30.08227
-  },
-  {
-  "lng": 31.46247,
-  "lat": 30.0824
-  },
-  {
-  "lng": 31.46355,
-  "lat": 30.08249
-  },
-  {
-  "lng": 31.46425,
-  "lat": 30.08251
-  },
-  {
-  "lng": 31.46451,
-  "lat": 30.08252
-  },
-  {
-  "lng": 31.46515,
-  "lat": 30.08251
-  },
-  {
-  "lng": 31.46594,
-  "lat": 30.08252
-  },
-  {
-  "lng": 31.4665,
-  "lat": 30.08254
-  },
-  {
-  "lng": 31.46721,
-  "lat": 30.08259
-  },
-  {
-  "lng": 31.4681,
-  "lat": 30.08264
-  },
-  {
-  "lng": 31.46874,
-  "lat": 30.08268
-  },
-  {
-  "lng": 31.4687383,
-  "lat": 30.0826816,
-  "type": "waypoint",
-  "polyline": "worvDsfa_EDw@?Y?i@?uAB[H[H[JWV_@TSb@U^Id@GbQ_Ah@EXCNAh@Ih@Ib@IpAWrAYd@Kv@Sx@WjDcAnRwGj@Qj@Ix@Ex@C",
-  "dir": "Slight <b>right</b> onto <b>Mohammed Nagib Axis</b> (signs for <b>New Cairo</b>/<wbr/><b>Al Rehab 1</b>)",
-  "step": "turn-slight-right",
-  "nextturn": "turn-slight-right",
-  "dist": {
-  "val": 1468,
-  "txt": "1.5 km",
-  "total": 35809
-  },
-  "timeto": {
-  "val": 89,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.46902,
-  "lat": 30.08265
-  },
-  {
-  "lng": 31.46915,
-  "lat": 30.08265
-  },
-  {
-  "lng": 31.46936,
-  "lat": 30.08265
-  },
-  {
-  "lng": 31.46979,
-  "lat": 30.08265
-  },
-  {
-  "lng": 31.46993,
-  "lat": 30.08263
-  },
-  {
-  "lng": 31.47007,
-  "lat": 30.08258
-  },
-  {
-  "lng": 31.47021,
-  "lat": 30.08253
-  },
-  {
-  "lng": 31.47033,
-  "lat": 30.08247
-  },
-  {
-  "lng": 31.47049,
-  "lat": 30.08235
-  },
-  {
-  "lng": 31.47059,
-  "lat": 30.08224
-  },
-  {
-  "lng": 31.4707,
-  "lat": 30.08206
-  },
-  {
-  "lng": 31.47075,
-  "lat": 30.0819
-  },
-  {
-  "lng": 31.47079,
-  "lat": 30.08171
-  },
-  {
-  "lng": 31.47111,
-  "lat": 30.07881
-  },
-  {
-  "lng": 31.47114,
-  "lat": 30.0786
-  },
-  {
-  "lng": 31.47116,
-  "lat": 30.07847
-  },
-  {
-  "lng": 31.47117,
-  "lat": 30.07839
-  },
-  {
-  "lng": 31.47122,
-  "lat": 30.07818
-  },
-  {
-  "lng": 31.47127,
-  "lat": 30.07797
-  },
-  {
-  "lng": 31.47132,
-  "lat": 30.07779
-  },
-  {
-  "lng": 31.47144,
-  "lat": 30.07738
-  },
-  {
-  "lng": 31.47157,
-  "lat": 30.07696
-  },
-  {
-  "lng": 31.47163,
-  "lat": 30.07677
-  },
-  {
-  "lng": 31.47173,
-  "lat": 30.07649
-  },
-  {
-  "lng": 31.47185,
-  "lat": 30.0762
-  },
-  {
-  "lng": 31.47219,
-  "lat": 30.07534
-  },
-  {
-  "lng": 31.47359,
-  "lat": 30.07222
-  },
-  {
-  "lng": 31.47368,
-  "lat": 30.072
-  },
-  {
-  "lng": 31.47373,
-  "lat": 30.07178
-  },
-  {
-  "lng": 31.47376,
-  "lat": 30.07149
-  },
-  {
-  "lng": 31.47378,
-  "lat": 30.0712
-  },
-  {
-  "lng": 31.4737793,
-  "lat": 30.0712,
-  "type": "waypoint",
-  "polyline": "_hpvDcfb_EDFHFHHJDHDJBLBJ@B?B?D?BAB?B?BAB?BAB?BABABABABABABCBA@ABCBA@CBABC@CBC@C@C@CBC@C@C@C@C@C@E?C@CL?HAHCHGNINKl@c@XKZK`@Kl@GrDW~EYp@?JAXC^AhE?tCh@`@@x@@~@Il@Mp@GRC|@E|D@bJDD?bBRZBTBd@?^CZE|AOLArH?hAAN@J?H?Z?L@pAC",
-  "dir": "At <b>Ahmed Oraby Square</b>, take the <b>2nd</b> exit and stay on <b>Mohammed Nagib Axis</b>",
-  "step": "roundabout-right",
-  "nextturn": "roundabout-right",
-  "dist": {
-  "val": 1787,
-  "txt": "1.8 km",
-  "total": 37596
-  },
-  "timeto": {
-  "val": 169,
+  "val": 177,
   "txt": "3 mins"
   }
   },
   {
-  "lng": 31.47374,
-  "lat": 30.07117
+  "lng": 31.21864,
+  "lat": 30.03702
   },
   {
-  "lng": 31.4737,
-  "lat": 30.07112
+  "lng": 31.21854,
+  "lat": 30.03674
   },
   {
-  "lng": 31.47365,
-  "lat": 30.07107
+  "lng": 31.21837,
+  "lat": 30.03619
   },
   {
-  "lng": 31.47362,
-  "lat": 30.07101
+  "lng": 31.21806,
+  "lat": 30.03538
   },
   {
-  "lng": 31.47359,
-  "lat": 30.07096
+  "lng": 31.21802,
+  "lat": 30.03525
   },
   {
-  "lng": 31.47357,
-  "lat": 30.0709
+  "lng": 31.21796,
+  "lat": 30.03508
   },
   {
-  "lng": 31.47355,
-  "lat": 30.07083
+  "lng": 31.21779,
+  "lat": 30.03455
   },
   {
-  "lng": 31.47354,
-  "lat": 30.07077
+  "lng": 31.21765,
+  "lat": 30.03419
   },
   {
-  "lng": 31.47354,
-  "lat": 30.07075
+  "lng": 31.2175,
+  "lat": 30.03381
   },
   {
-  "lng": 31.47354,
-  "lat": 30.07073
+  "lng": 31.21721,
+  "lat": 30.03281
   },
   {
-  "lng": 31.47354,
-  "lat": 30.0707
+  "lng": 31.21687,
+  "lat": 30.0318
   },
   {
-  "lng": 31.47355,
-  "lat": 30.07068
+  "lng": 31.21681,
+  "lat": 30.03166
   },
   {
-  "lng": 31.47355,
-  "lat": 30.07066
+  "lng": 31.21671,
+  "lat": 30.03148
   },
   {
-  "lng": 31.47355,
-  "lat": 30.07064
+  "lng": 31.2166,
+  "lat": 30.03123
   },
   {
-  "lng": 31.47356,
-  "lat": 30.07062
+  "lng": 31.21649,
+  "lat": 30.03097
   },
   {
-  "lng": 31.47356,
-  "lat": 30.0706
+  "lng": 31.21633,
+  "lat": 30.03062
   },
   {
-  "lng": 31.47357,
-  "lat": 30.07058
+  "lng": 31.21629,
+  "lat": 30.03052
   },
   {
-  "lng": 31.47357,
-  "lat": 30.07056
+  "lng": 31.21625,
+  "lat": 30.03039
   },
   {
-  "lng": 31.47358,
-  "lat": 30.07054
+  "lng": 31.21622,
+  "lat": 30.03022
   },
   {
-  "lng": 31.47359,
-  "lat": 30.07052
+  "lng": 31.21621,
+  "lat": 30.03014
   },
   {
-  "lng": 31.4736,
-  "lat": 30.0705
+  "lng": 31.21621,
+  "lat": 30.03005
   },
   {
-  "lng": 31.47361,
-  "lat": 30.07048
+  "lng": 31.21625,
+  "lat": 30.02941
   },
   {
-  "lng": 31.47362,
-  "lat": 30.07046
+  "lng": 31.21629,
+  "lat": 30.02877
   },
   {
-  "lng": 31.47363,
-  "lat": 30.07044
+  "lng": 31.21627,
+  "lat": 30.02857
   },
   {
-  "lng": 31.47365,
-  "lat": 30.07042
+  "lng": 31.21625,
+  "lat": 30.02837
   },
   {
-  "lng": 31.47366,
-  "lat": 30.0704
+  "lng": 31.21628,
+  "lat": 30.02818
   },
   {
-  "lng": 31.47367,
-  "lat": 30.07039
+  "lng": 31.21632,
+  "lat": 30.02799
   },
   {
-  "lng": 31.47369,
-  "lat": 30.07037
+  "lng": 31.21634,
+  "lat": 30.02776
   },
   {
-  "lng": 31.4737,
-  "lat": 30.07035
+  "lng": 31.21636,
+  "lat": 30.02752
   },
   {
-  "lng": 31.47372,
-  "lat": 30.07034
+  "lng": 31.21637,
+  "lat": 30.02744
   },
   {
-  "lng": 31.47373,
-  "lat": 30.07032
+  "lng": 31.2164,
+  "lat": 30.02681
   },
   {
-  "lng": 31.47375,
-  "lat": 30.0703
+  "lng": 31.21645,
+  "lat": 30.02603
   },
   {
-  "lng": 31.47377,
-  "lat": 30.07029
+  "lng": 31.21647,
+  "lat": 30.02546
   },
   {
-  "lng": 31.47379,
-  "lat": 30.07027
+  "lng": 31.21648,
+  "lat": 30.02531
   },
   {
-  "lng": 31.47381,
-  "lat": 30.07026
+  "lng": 31.21648,
+  "lat": 30.0253
   },
   {
-  "lng": 31.47383,
-  "lat": 30.07025
+  "lng": 31.21646,
+  "lat": 30.02518
   },
   {
-  "lng": 31.47385,
-  "lat": 30.07024
+  "lng": 31.21643,
+  "lat": 30.02457
   },
   {
-  "lng": 31.47387,
-  "lat": 30.07022
+  "lng": 31.21642,
+  "lat": 30.02442
   },
   {
-  "lng": 31.47389,
-  "lat": 30.07021
+  "lng": 31.21638,
+  "lat": 30.02291
   },
   {
-  "lng": 31.47391,
-  "lat": 30.0702
+  "lng": 31.21636,
+  "lat": 30.02261
   },
   {
-  "lng": 31.47393,
-  "lat": 30.07019
+  "lng": 31.21616,
+  "lat": 30.0206
   },
   {
-  "lng": 31.47395,
-  "lat": 30.07018
-  },
-  {
-  "lng": 31.47397,
-  "lat": 30.07017
-  },
-  {
-  "lng": 31.474,
-  "lat": 30.07016
-  },
-  {
-  "lng": 31.47402,
-  "lat": 30.07016
-  },
-  {
-  "lng": 31.47404,
-  "lat": 30.07015
-  },
-  {
-  "lng": 31.47404,
-  "lat": 30.07008
-  },
-  {
-  "lng": 31.47405,
-  "lat": 30.07003
-  },
-  {
-  "lng": 31.47407,
-  "lat": 30.06998
-  },
-  {
-  "lng": 31.47411,
-  "lat": 30.06993
-  },
-  {
-  "lng": 31.47416,
-  "lat": 30.06985
-  },
-  {
-  "lng": 31.47422,
-  "lat": 30.06977
-  },
-  {
-  "lng": 31.4744,
-  "lat": 30.06954
-  },
-  {
-  "lng": 31.47446,
-  "lat": 30.06941
-  },
-  {
-  "lng": 31.47452,
-  "lat": 30.06927
-  },
-  {
-  "lng": 31.47458,
-  "lat": 30.0691
-  },
-  {
-  "lng": 31.47462,
-  "lat": 30.06887
-  },
-  {
-  "lng": 31.47474,
-  "lat": 30.06797
-  },
-  {
-  "lng": 31.47487,
-  "lat": 30.06685
-  },
-  {
-  "lng": 31.47487,
-  "lat": 30.0666
-  },
-  {
-  "lng": 31.47488,
-  "lat": 30.06654
-  },
-  {
-  "lng": 31.4749,
-  "lat": 30.06641
-  },
-  {
-  "lng": 31.47491,
-  "lat": 30.06625
-  },
-  {
-  "lng": 31.47491,
-  "lat": 30.06524
-  },
-  {
-  "lng": 31.4747,
-  "lat": 30.06449
-  },
-  {
-  "lng": 31.47469,
-  "lat": 30.06432
-  },
-  {
-  "lng": 31.47468,
-  "lat": 30.06403
-  },
-  {
-  "lng": 31.47473,
-  "lat": 30.06371
-  },
-  {
-  "lng": 31.4748,
-  "lat": 30.06348
-  },
-  {
-  "lng": 31.47484,
-  "lat": 30.06323
-  },
-  {
-  "lng": 31.47486,
-  "lat": 30.06313
-  },
-  {
-  "lng": 31.47489,
-  "lat": 30.06282
-  },
-  {
-  "lng": 31.47488,
-  "lat": 30.06187
-  },
-  {
-  "lng": 31.47485,
-  "lat": 30.06009
-  },
-  {
-  "lng": 31.47485,
-  "lat": 30.06006
-  },
-  {
-  "lng": 31.47475,
-  "lat": 30.05956
-  },
-  {
-  "lng": 31.47473,
-  "lat": 30.05942
-  },
-  {
-  "lng": 31.47471,
-  "lat": 30.05931
-  },
-  {
-  "lng": 31.47471,
-  "lat": 30.05912
-  },
-  {
-  "lng": 31.47473,
-  "lat": 30.05896
-  },
-  {
-  "lng": 31.47476,
-  "lat": 30.05882
-  },
-  {
-  "lng": 31.47484,
-  "lat": 30.05835
-  },
-  {
-  "lng": 31.47485,
-  "lat": 30.05828
-  },
-  {
-  "lng": 31.47485,
-  "lat": 30.05674
-  },
-  {
-  "lng": 31.47486,
-  "lat": 30.05637
-  },
-  {
-  "lng": 31.47485,
-  "lat": 30.05629
-  },
-  {
-  "lng": 31.47485,
-  "lat": 30.05623
-  },
-  {
-  "lng": 31.47485,
-  "lat": 30.05618
-  },
-  {
-  "lng": 31.47485,
-  "lat": 30.05604
-  },
-  {
-  "lng": 31.47484,
-  "lat": 30.05597
-  },
-  {
-  "lng": 31.47486,
-  "lat": 30.05556
-  },
-  {
-  "lng": 31.4748559,
-  "lat": 30.05556469999999,
+  "lng": 31.2161589,
+  "lat": 30.02060479999999,
   "type": "waypoint",
-  "polyline": "gfmvD{lb_Ev@j@nAzAPx@Fj@z@rJDd@Fl@XfDJvA\\tDRnD",
-  "dir": "Turn <b>right</b> onto <b>Al Sadat Axis</b>",
-  "step": "turn-right",
-  "nextturn": "turn-right",
-  "dist": {
-  "val": 675,
-  "txt": "0.7 km",
-  "total": 38271
-  },
-  "timeto": {
-  "val": 47,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.47464,
-  "lat": 30.05528
-  },
-  {
-  "lng": 31.47418,
-  "lat": 30.05488
-  },
-  {
-  "lng": 31.47389,
-  "lat": 30.05479
-  },
-  {
-  "lng": 31.47367,
-  "lat": 30.05475
-  },
-  {
-  "lng": 31.47181,
-  "lat": 30.05445
-  },
-  {
-  "lng": 31.47162,
-  "lat": 30.05442
-  },
-  {
-  "lng": 31.47139,
-  "lat": 30.05438
-  },
-  {
-  "lng": 31.47055,
-  "lat": 30.05425
-  },
-  {
-  "lng": 31.47011,
-  "lat": 30.05419
-  },
-  {
-  "lng": 31.4692,
-  "lat": 30.05404
-  },
-  {
-  "lng": 31.46832,
-  "lat": 30.05394
-  },
-  {
-  "lng": 31.46832199999999,
-  "lat": 30.05393969999999,
-  "type": "waypoint",
-  "polyline": "c|lvD_da_EHDF@F?HAJGUuDEe@o@oHE[Cs@",
-  "dir": "Make a <b>U-turn</b>",
+  "polyline": "wkfvD_|o}DDM@A?AAEAE?AEG{BG_DMaEIkDKwAE",
+  "dir": "Make a <b>U-turn</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
   "step": "uturn-left",
   "nextturn": "uturn-left",
   "dist": {
-  "val": 323,
-  "txt": "0.3 km",
-  "total": 38594
+  "val": 433,
+  "txt": "0.4 km",
+  "total": 13130
   },
   "timeto": {
-  "val": 26,
+  "val": 58,
   "txt": "1 min"
   }
   },
   {
-  "lng": 31.46829,
-  "lat": 30.05389
+  "lng": 31.21623,
+  "lat": 30.02057
   },
   {
-  "lng": 31.46828,
-  "lat": 30.05385
+  "lng": 31.21624,
+  "lat": 30.02056
   },
   {
-  "lng": 31.46828,
-  "lat": 30.05381
+  "lng": 31.21625,
+  "lat": 30.02056
   },
   {
-  "lng": 31.46829,
-  "lat": 30.05376
+  "lng": 31.21628,
+  "lat": 30.02057
   },
   {
-  "lng": 31.46833,
-  "lat": 30.0537
+  "lng": 31.21631,
+  "lat": 30.02058
   },
   {
-  "lng": 31.46924,
-  "lat": 30.05381
+  "lng": 31.21632,
+  "lat": 30.02058
   },
   {
-  "lng": 31.46943,
-  "lat": 30.05384
+  "lng": 31.21636,
+  "lat": 30.02061
   },
   {
-  "lng": 31.47095,
-  "lat": 30.05408
+  "lng": 31.2164,
+  "lat": 30.02123
   },
   {
-  "lng": 31.47109,
-  "lat": 30.05411
+  "lng": 31.21647,
+  "lat": 30.02203
   },
   {
-  "lng": 31.47135,
-  "lat": 30.05413
+  "lng": 31.21652,
+  "lat": 30.023
   },
   {
-  "lng": 31.4713475,
-  "lat": 30.0541322,
-  "type": "waypoint",
-  "polyline": "i}lvD}va_EYiA]gD[qDCWI{@KgAAOCQCUCu@Ei@Ck@AYAa@?KAMCwA@mA@iA@qERsB",
-  "dir": "Slight <b>left</b>",
-  "step": "turn-slight-left",
-  "nextturn": "turn-slight-left",
-  "dist": {
-  "val": 695,
-  "txt": "0.7 km",
-  "total": 39289
+  "lng": 31.21658,
+  "lat": 30.02386
   },
-  "timeto": {
-  "val": 37,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.47172,
-  "lat": 30.05426
-  },
-  {
-  "lng": 31.47256,
-  "lat": 30.05441
-  },
-  {
-  "lng": 31.47345,
-  "lat": 30.05455
-  },
-  {
-  "lng": 31.47357,
-  "lat": 30.05457
-  },
-  {
-  "lng": 31.47387,
-  "lat": 30.05462
-  },
-  {
-  "lng": 31.47423,
-  "lat": 30.05468
-  },
-  {
-  "lng": 31.47431,
-  "lat": 30.05469
-  },
-  {
-  "lng": 31.4744,
-  "lat": 30.05471
-  },
-  {
-  "lng": 31.47451,
-  "lat": 30.05473
-  },
-  {
-  "lng": 31.47478,
-  "lat": 30.05475
-  },
-  {
-  "lng": 31.47499,
-  "lat": 30.05478
-  },
-  {
-  "lng": 31.47521,
-  "lat": 30.0548
-  },
-  {
-  "lng": 31.47534,
-  "lat": 30.05481
-  },
-  {
-  "lng": 31.47551,
-  "lat": 30.05482
-  },
-  {
-  "lng": 31.47557,
-  "lat": 30.05482
-  },
-  {
-  "lng": 31.47564,
-  "lat": 30.05483
-  },
-  {
-  "lng": 31.47608,
-  "lat": 30.05485
-  },
-  {
-  "lng": 31.47647,
-  "lat": 30.05484
-  },
-  {
-  "lng": 31.47684,
-  "lat": 30.05483
-  },
-  {
-  "lng": 31.47789,
-  "lat": 30.05482
-  },
-  {
-  "lng": 31.47847,
-  "lat": 30.05472
-  },
-  {
-  "lng": 31.4784664,
-  "lat": 30.0547234,
-  "type": "waypoint",
-  "polyline": "_amvDmcc_E?kD?oA?S@s@AWBa@LoBl@gEJyA|@cGFi@Z_CNcAXgA",
-  "dir": "Continue straight onto <b>Al Sadat Axis</b>",
-  "step": "straight",
-  "nextturn": "straight",
-  "dist": {
-  "val": 668,
-  "txt": "0.7 km",
-  "total": 39957
-  },
-  "timeto": {
-  "val": 41,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.47933,
-  "lat": 30.05472
-  },
-  {
-  "lng": 31.47973,
-  "lat": 30.05472
-  },
-  {
-  "lng": 31.47983,
-  "lat": 30.05472
-  },
-  {
-  "lng": 31.48009,
-  "lat": 30.05471
-  },
-  {
-  "lng": 31.48021,
-  "lat": 30.05472
-  },
-  {
-  "lng": 31.48038,
-  "lat": 30.0547
-  },
-  {
-  "lng": 31.48094,
-  "lat": 30.05463
-  },
-  {
-  "lng": 31.48194,
-  "lat": 30.0544
-  },
-  {
-  "lng": 31.48239,
-  "lat": 30.05434
-  },
-  {
-  "lng": 31.48369,
-  "lat": 30.05403
-  },
-  {
-  "lng": 31.4839,
-  "lat": 30.05399
-  },
-  {
-  "lng": 31.48454,
-  "lat": 30.05385
-  },
-  {
-  "lng": 31.48488,
-  "lat": 30.05377
-  },
-  {
-  "lng": 31.48524,
-  "lat": 30.05364
-  },
-  {
-  "lng": 31.48524329999999,
-  "lat": 30.0536435,
-  "type": "waypoint",
-  "polyline": "gzlvDwmd_EJBNBHAPCb@EP@nAVXFj@Fl@D^?X?|@At@D~A@tD?f@@zA@|AA\\?fAAZAdE?jB?V@VFp@R",
-  "dir": "Turn <b>right</b> onto <b>Abdullah ibn Salamah</b>",
-  "step": "turn-right",
-  "nextturn": "turn-right",
-  "dist": {
-  "val": 850,
-  "txt": "0.8 km",
-  "total": 40807
-  },
-  "timeto": {
-  "val": 98,
-  "txt": "2 mins"
-  }
-  },
-  {
-  "lng": 31.48522,
-  "lat": 30.05358
-  },
-  {
-  "lng": 31.4852,
-  "lat": 30.0535
-  },
-  {
-  "lng": 31.48521,
-  "lat": 30.05345
-  },
-  {
-  "lng": 31.48523,
-  "lat": 30.05336
-  },
-  {
-  "lng": 31.48526,
-  "lat": 30.05318
-  },
-  {
-  "lng": 31.48525,
-  "lat": 30.05309
-  },
-  {
-  "lng": 31.48513,
-  "lat": 30.05269
-  },
-  {
-  "lng": 31.48509,
-  "lat": 30.05256
-  },
-  {
-  "lng": 31.48505,
-  "lat": 30.05234
-  },
-  {
-  "lng": 31.48502,
-  "lat": 30.05211
-  },
-  {
-  "lng": 31.48502,
-  "lat": 30.05195
-  },
-  {
-  "lng": 31.48502,
-  "lat": 30.05182
-  },
-  {
-  "lng": 31.48503,
-  "lat": 30.05151
-  },
-  {
-  "lng": 31.485,
-  "lat": 30.05124
-  },
-  {
-  "lng": 31.48499,
-  "lat": 30.05076
-  },
-  {
-  "lng": 31.48499,
-  "lat": 30.04985
-  },
-  {
-  "lng": 31.48498,
-  "lat": 30.04965
-  },
-  {
-  "lng": 31.48497,
-  "lat": 30.04919
-  },
-  {
-  "lng": 31.48498,
-  "lat": 30.04872
-  },
-  {
-  "lng": 31.48498,
-  "lat": 30.04857
-  },
-  {
-  "lng": 31.48499,
-  "lat": 30.04821
-  },
-  {
-  "lng": 31.485,
-  "lat": 30.04807
-  },
-  {
-  "lng": 31.485,
-  "lat": 30.04708
-  },
-  {
-  "lng": 31.485,
-  "lat": 30.04654
-  },
-  {
-  "lng": 31.48499,
-  "lat": 30.04642
-  },
-  {
-  "lng": 31.48495,
-  "lat": 30.0463
-  },
-  {
-  "lng": 31.48485,
-  "lat": 30.04605
-  },
-  {
-  "lng": 31.4848548,
-  "lat": 30.0460529,
-  "type": "waypoint",
-  "polyline": "yjkvDikd_EBDBFDBDDDDDBD@DBTl@F^",
-  "dir": "At the roundabout, take the <b>1st</b> exit onto <b>Salah El Din Abdel Karim</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
-  "step": "roundabout-right",
-  "nextturn": "roundabout-right",
-  "dist": {
-  "val": 73,
-  "txt": "73 m",
-  "total": 40880
-  },
-  "timeto": {
-  "val": 15,
-  "txt": "1 min"
-  }
-  },
-  {
-  "lng": 31.48482,
-  "lat": 30.04603
-  },
-  {
-  "lng": 31.48478,
-  "lat": 30.04601
-  },
-  {
-  "lng": 31.48476,
-  "lat": 30.04598
-  },
-  {
-  "lng": 31.48473,
-  "lat": 30.04595
-  },
-  {
-  "lng": 31.4847,
-  "lat": 30.04592
-  },
-  {
-  "lng": 31.48468,
-  "lat": 30.04589
-  },
-  {
-  "lng": 31.48467,
-  "lat": 30.04586
-  },
-  {
-  "lng": 31.48465,
-  "lat": 30.04583
-  },
-  {
-  "lng": 31.48442,
-  "lat": 30.04572
-  },
   {
-  "lng": 31.48426,
-  "lat": 30.04568
+  "lng": 31.21661,
+  "lat": 30.0243
   },
   {
-  "lng": 31.4842629,
-  "lat": 30.0456832,
+  "lng": 31.2166063,
+  "lat": 30.0242951,
   "type": "waypoint"
   }
   ],
-  "totaldist": 40880,
+  "totaldist": 13120,
   "avoid": {
   "highways": false,
   "tolls": false,
@@ -5830,12 +2510,12 @@
   "elevation": null,
   "bounds": {
   "northeast": {
-  "lat": 30.0884548,
-  "lng": 31.4852494
+  "lat": 30.0691791,
+  "lng": 31.2622585
   },
   "southwest": {
-  "lat": 30.0434955,
-  "lng": 31.2166409
+  "lat": 30.0205633,
+  "lng": 31.2155284
   }
   },
   "copyright": "Map data ©2022"

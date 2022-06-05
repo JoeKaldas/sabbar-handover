@@ -45,13 +45,13 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
-	<key>NSLocationWhenInUseUsageDescription</key>
+	<!-- <key>NSLocationWhenInUseUsageDescription</key>
 	<string>For location access</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>For background location access</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
-	</array>
+	</array> -->
 </dict>
 </plist>
