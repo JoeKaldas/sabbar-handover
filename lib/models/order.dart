@@ -1,15 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:sabbar/enums/delivery_status.dart';
+import 'package:sabbar/models/user.dart';
 import 'package:sabbar/services/local_notification_service.dart';
 
 class Order {
-  bool didNotifyPickup5km = false;
-  bool didNotifyPickup100m = false;
-  bool didNotifyDelivery5km = false;
-  bool didNotifyDelivery100m = false;
+  final User user = User(
+      name: "Mohamed Abdullah",
+      image: "https://www.w3schools.com/howto/img_avatar.png");
+  final List<DeliveryStatus> deliveryStatuses = [
+    DeliveryStatus.onTheWay,
+  ];
+
+  bool isStatusFinished(DeliveryStatus status) {
+    return deliveryStatuses.contains(status);
+  }
+
+  bool get isDelivered {
+    return deliveryStatuses.contains(DeliveryStatus.delivered);
+  }
 
   notifyPickup5Km(BuildContext context) {
-    didNotifyPickup5km = true;
-
     LocalNotificationService.showLocalNotification(
       context: context,
       id: 1,
@@ -19,8 +29,6 @@ class Order {
   }
 
   notifyPickup100m(BuildContext context) {
-    didNotifyPickup100m = true;
-
     LocalNotificationService.showLocalNotification(
       context: context,
       id: 2,
@@ -30,8 +38,6 @@ class Order {
   }
 
   notifyDelivery5Km(BuildContext context) {
-    didNotifyDelivery5km = true;
-
     LocalNotificationService.showLocalNotification(
       context: context,
       id: 3,
@@ -41,8 +47,6 @@ class Order {
   }
 
   notifyDelivery100m(BuildContext context) {
-    didNotifyDelivery100m = true;
-
     LocalNotificationService.showLocalNotification(
       context: context,
       id: 4,

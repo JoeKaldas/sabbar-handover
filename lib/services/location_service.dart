@@ -16,7 +16,7 @@ class LocationService {
       yield currentLocation;
 
       // Change this to make navigation faster/slower
-      await Future.delayed(const Duration(milliseconds: 100));
+      await Future.delayed(const Duration(milliseconds: 10));
     }
   }
 
