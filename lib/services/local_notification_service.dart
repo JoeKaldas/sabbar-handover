@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:sabbar/consts/logging.dart';
 
@@ -47,15 +48,27 @@ class LocalNotificationService {
   }
 
   static void showLocalNotification({
+    required BuildContext context,
+    required int id,
     required String title,
     required String message,
-  }) async {
-    await flutterLocalNotificationsPlugin.show(
+  }) {
+    flutterLocalNotificationsPlugin.show(
       1,
       title,
       message,
-      // tz.TZDateTime.now(tz.local).add(const Duration(minutes: 1)),
       platformChannelSpecifics,
+    );
+
+    if (Navigator.of(context).canPop()) {
+      Navigator.of(context).pop();
+    }
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(title),
+        content: Text(message),
+      ),
     );
   }
 
@@ -75,27 +88,5 @@ class LocalNotificationService {
     String? payload,
   ) async {
     logger.i('notification payload on did receive local notification:');
-    if (payload != null) {
-      logger.i(
-          'notification payload on did receive local notification: $payload');
-    }
-    // Modals.showDialog(
-    //   child: MessageScreen(
-    //     fullScreen: false,
-    //     opaqueBg: false,
-    //     bgColor: Styling.kColorScheduleYellow,
-    //     title: title ?? "",
-    //     titleColor: Styling.kColorBlue,
-    //     message: body ?? "",
-    //     messageColor: Styling.kColorBlue,
-    //     buttonText: "Ok",
-    //     buttonTextColor: Styling.kColorBlue,
-    //     buttonFunction: () {
-    //       if (Get.isDialogOpen ?? false) {
-    //         Get.back();
-    //       }
-    //     },
-    //   ),
-    // );
   }
 }

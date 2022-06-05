@@ -145,9 +145,9 @@ class _TrackingScreenState extends State<TrackingScreen> {
   updateLocation() {
     jsonService.fetchData(context, "assets/json/directions.json").then(
           (data) => locationService.directions(data).listen(
-            (LatLng newLocalData) async {
+            (LatLng newLocalData) {
               if (_controller != null) {
-                await _controller!.animateCamera(
+                _controller!.animateCamera(
                   CameraUpdate.newCameraPosition(
                     CameraPosition(
                       target: LatLng(
@@ -165,7 +165,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
                       newLocalData, pickupLocation);
 
                   if (distanceInMeters <= 5000 && !order.didNotifyPickup5km) {
-                    order.notifyPickup5Km();
+                    order.notifyPickup5Km(context);
                   }
                   return;
                 }
@@ -175,7 +175,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
                       newLocalData, pickupLocation);
 
                   if (distanceInMeters <= 100 && !order.didNotifyPickup100m) {
-                    order.notifyPickup100m();
+                    order.notifyPickup100m(context);
                     deliveryStatuses[1].updateStatus();
                   }
                   return;
@@ -186,7 +186,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
                       newLocalData, destinationLocation);
 
                   if (distanceInMeters <= 5000 && !order.didNotifyDelivery5km) {
-                    order.notifyDelivery5Km();
+                    order.notifyDelivery5Km(context);
                     deliveryStatuses[2].updateStatus();
                   }
                   return;
@@ -197,7 +197,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
                       newLocalData, destinationLocation);
 
                   if (distanceInMeters <= 100 && !order.didNotifyDelivery100m) {
-                    order.notifyDelivery100m();
+                    order.notifyDelivery100m(context);
                     deliveryStatuses[3].updateStatus();
                   }
                   return;
