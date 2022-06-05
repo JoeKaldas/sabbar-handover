@@ -7,7 +7,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:sabbar/consts/colors.dart';
 import 'package:sabbar/consts/locations.dart';
 import 'package:sabbar/consts/logging.dart';
-import 'package:sabbar/consts/spacings.dart';
+import 'package:sabbar/consts/sizings.dart';
 import 'package:sabbar/extensions/list_map_with_index.dart';
 import 'package:sabbar/models/order.dart';
 import 'package:sabbar/services/json_service.dart';
@@ -225,6 +225,10 @@ class _TrackingScreenState extends State<TrackingScreen> {
       extendBodyBehindAppBar: true,
       backgroundColor: Colors.transparent,
       appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {},
+        ),
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
@@ -255,7 +259,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
             alignment: Alignment.bottomCenter,
             child: AnimatedContainer(
               duration: const Duration(seconds: 1),
-              height: order.didNotifyDelivery100m ? 400 : 350,
+              height: order.didNotifyDelivery100m ? 410 : 360,
               child: BottomSheet(
                 enableDrag: false,
                 shape: const RoundedRectangleBorder(
@@ -267,7 +271,7 @@ class _TrackingScreenState extends State<TrackingScreen> {
                 backgroundColor: yellow,
                 onClosing: () {},
                 builder: (ctx) => Container(
-                  padding: const EdgeInsets.only(top: 70),
+                  padding: const EdgeInsets.only(top: 90),
                   child: ListView(
                     padding: const EdgeInsets.all(0),
                     shrinkWrap: true,
@@ -342,10 +346,10 @@ class _TrackingScreenState extends State<TrackingScreen> {
           ),
           AnimatedPositioned(
             duration: const Duration(seconds: 1),
-            left: (MediaQuery.of(context).size.width - 120) / 2,
-            bottom: order.didNotifyDelivery100m ? 350 : 300,
+            left: (MediaQuery.of(context).size.width - avatarRadius * 2) / 2,
+            bottom: order.didNotifyDelivery100m ? 340 : 290,
             child: const CircleAvatar(
-              radius: 60.0,
+              radius: avatarRadius,
               backgroundImage: NetworkImage(
                   'https://www.w3schools.com/howto/img_avatar.png'),
               backgroundColor: Colors.transparent,

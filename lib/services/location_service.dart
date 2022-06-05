@@ -15,7 +15,8 @@ class LocationService {
     for (var currentLocation in points) {
       yield currentLocation;
 
-      await Future.delayed(const Duration(milliseconds: 10));
+      // Change this to make navigation faster/slower
+      await Future.delayed(const Duration(milliseconds: 100));
     }
   }
 
