@@ -30,6 +30,7 @@ dependencies:
   google_maps_flutter: ^2.1.7
   geolocator: ^8.2.1
   timelines: ^0.1.0
+  flutter_rating_bar: ^4.0.1
   flutter_local_notifications: ^9.4.0
   logger: ^1.1.0
   flutter:
