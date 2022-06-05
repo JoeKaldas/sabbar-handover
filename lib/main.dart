@@ -226,8 +226,15 @@ class _TrackingScreenState extends State<TrackingScreen> {
       backgroundColor: Colors.transparent,
       appBar: AppBar(
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () {},
+          icon: const Icon(
+            Icons.arrow_back,
+            color: black,
+          ),
+          onPressed: () {
+            if (Navigator.of(context).canPop()) {
+              Navigator.of(context).pop();
+            }
+          },
         ),
         backgroundColor: Colors.transparent,
         elevation: 0,
